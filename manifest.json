@@ -1,0 +1,16 @@
+{
+  "name": "ToolVanta - 150 Free Online Tools",
+  "short_name": "ToolVanta",
+  "description": "Fast, private, browser-based online tools for AI, SEO, text, developers, marketing, social media, calculators, images, and productivity.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f8fb",
+  "theme_color": "#0f766e",
+  "icons": [
+    {
+      "src": "assets/img/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}
