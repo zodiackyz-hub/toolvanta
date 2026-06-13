@@ -712,7 +712,7 @@
     var data=(ecl<<3)|mask; var bits=data<<10; for(var i=14;i>=10;i--){ if(((bits>>>i)&1)!==0) bits ^= 0x537 << (i-10); } return ((data<<10)|bits) ^ 0x5412;
   }
   function qrCodeGenerator(root){
-    clear(root); var src=textarea('https://toolvanta.com',{maxlength:'106'}); var output=h('div',{class:'qr-box'}); var status=resultBox('Status'); var currentSvg='';
+    clear(root); var src=textarea('https://toolvanta.space',{maxlength:'106'}); var output=h('div',{class:'qr-box'}); var status=resultBox('Status'); var currentSvg='';
     function run(){ try{ currentSvg=qrSvg(src.value || ' '); output.innerHTML=currentSvg; setText(status.box, 'QR code generated. Maximum input for this lightweight static generator is 106 UTF-8 bytes.'); } catch(e){ output.innerHTML=''; currentSvg=''; setText(status.box,e.message,true); } }
     src.addEventListener('input',run);
     var row=actions(); row.appendChild(primary('Generate QR code',run)); row.appendChild(secondary('Download SVG',function(){ if(!currentSvg) return; var blob=new Blob([currentSvg],{type:'image/svg+xml'}); var a=document.createElement('a'); a.href=URL.createObjectURL(blob); a.download='toolvanta-qr-code.svg'; a.click(); URL.revokeObjectURL(a.href); }));
