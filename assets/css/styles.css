@@ -368,3 +368,98 @@ body {
   .filter-row { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 4px; }
   .filter-btn { white-space: nowrap; }
 }
+
+/* Professional content and tool UX upgrades */
+.trust-strip {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  padding: 24px 0 10px;
+}
+.trust-strip div,
+.tool-quality-box div {
+  display: grid;
+  gap: 4px;
+  padding: 14px;
+  border: 1px solid rgba(13, 148, 136, .16);
+  border-radius: 8px;
+  background: linear-gradient(180deg, #ffffff, #f8fafc);
+  box-shadow: var(--shadow-soft);
+}
+.trust-strip strong,
+.tool-quality-box strong {
+  color: #0f766e;
+  font-size: .92rem;
+}
+.trust-strip span,
+.tool-quality-box span {
+  color: var(--muted);
+  font-size: .9rem;
+}
+.workflow-band,
+.category-workflow,
+.quality-promise {
+  margin-top: 24px;
+  padding: 24px;
+  border: 1px solid rgba(13, 148, 136, .16);
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ffffff 0%, #f4fbf9 70%, #fff7ed 100%);
+  box-shadow: var(--shadow-soft);
+}
+.workflow-band,
+.category-workflow {
+  display: grid;
+  grid-template-columns: minmax(0, .9fr) minmax(0, 1.1fr);
+  gap: 18px;
+  align-items: start;
+}
+.workflow-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.workflow-grid a {
+  display: grid;
+  gap: 6px;
+  padding: 16px;
+  border: 1px solid rgba(13, 148, 136, .18);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text);
+  box-shadow: var(--shadow-soft);
+}
+.workflow-grid span {
+  color: var(--muted);
+  font-size: .92rem;
+}
+.tool-quality-box {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.tool-quickbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid rgba(13, 148, 136, .14);
+  border-radius: 8px;
+  background: #f8fafc;
+}
+.tool-quickbar .quickbar-label {
+  margin-right: auto;
+  color: var(--muted);
+  font-size: .9rem;
+  font-weight: 800;
+}
+@media (max-width: 900px) {
+  .trust-strip,
+  .tool-quality-box,
+  .workflow-band,
+  .category-workflow,
+  .workflow-grid {
+    grid-template-columns: 1fr;
+  }
+}

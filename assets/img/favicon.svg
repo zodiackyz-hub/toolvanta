@@ -1,1 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ToolVanta"><rect width="64" height="64" rx="12" fill="#0f766e"/><path d="M14 18h36v8H36v24h-8V26H14z" fill="#fff"/><path d="M42 34l6 6-12 12-6-6z" fill="#f5b841"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ToolVanta">
+  <rect width="64" height="64" rx="14" fill="#0f172a"/>
+  <path d="M12 18h40v7H36v27h-8V25H12z" fill="#f8fafc"/>
+  <path d="M42 33l8 8-13 13-8-8z" fill="#0d9488"/>
+  <path d="M46 37l4 4-13 13-4-4z" fill="#f59e0b" opacity=".9"/>
+  <circle cx="48" cy="18" r="4" fill="#f43f5e"/>
+</svg>

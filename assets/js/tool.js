@@ -786,6 +786,105 @@
   });
 })();
 
+/* ToolVanta universal quick actions */
+(function(){
+  function ready(fn){ if(document.readyState !== 'loading') fn(); else document.addEventListener('DOMContentLoaded', fn); }
+  function fire(node){ node.dispatchEvent(new Event('input', { bubbles:true })); node.dispatchEvent(new Event('change', { bubbles:true })); }
+  function sampleValue(node, tool){
+    var tag = node.tagName.toLowerCase();
+    var type = (node.getAttribute('type') || '').toLowerCase();
+    var id = (tool && tool.id) || '';
+    var category = (tool && tool.category) || '';
+    if(tag === 'select') return null;
+    if(type === 'date') return node.name && node.name.indexOf('end') !== -1 ? '2026-12-31' : '2026-01-01';
+    if(type === 'time') return node.value && node.value !== '09:00' ? node.value : '09:00';
+    if(type === 'color') return '#0f766e';
+    if(type === 'url') return 'https://toolvanta.space/tools/';
+    if(type === 'number') return node.value || '100';
+    if(type === 'file') return null;
+    if(id.indexOf('json') !== -1) return '{\"site\":\"ToolVanta\",\"tools\":150,\"static\":true}';
+    if(id.indexOf('jwt') !== -1) return 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJ0b29sdmFudGEiLCJyb2xlIjoiZGVtbyIsImlhdCI6MTcxMDAwMDAwMH0.signature';
+    if(id.indexOf('regex') !== -1) return '\\\\btool\\\\w*\\\\b';
+    if(id.indexOf('utm') !== -1) return 'https://toolvanta.space/';
+    if(category === 'seo') return 'ToolVanta free online tools help users complete SEO, text, developer, image, and productivity tasks directly in the browser.';
+    if(category === 'social-media') return 'Launch day: free browser tools for creators, marketers, and developers. #tools #seo';
+    if(category === 'ai' || category === 'marketing') return 'browser based productivity tools for global users';
+    return 'ToolVanta helps people use fast browser-based tools for SEO, text, development, marketing, images, and productivity.';
+  }
+  function getTool(root){
+    var id = root.getAttribute('data-tool-id');
+    var list = window.TOOLVANTA_TOOLS || [];
+    for(var i=0;i<list.length;i++) if(list[i].id === id) return list[i];
+    return { id:id, category:'' };
+  }
+  function copyText(text, note){
+    if(!text) return;
+    if(navigator.clipboard && navigator.clipboard.writeText){
+      navigator.clipboard.writeText(text).then(function(){ if(note){ note.textContent='Copied'; setTimeout(function(){ note.textContent=''; }, 1400); } });
+    }
+  }
+  function enhance(){
+    var root = document.getElementById('tool-root');
+    if(!root || root.dataset.quickActions === 'ready') return;
+    var form = root.querySelector('.tool-form');
+    if(!form) return;
+    root.dataset.quickActions = 'ready';
+    var tool = getTool(root);
+    var bar = document.createElement('div');
+    bar.className = 'tool-quickbar';
+    var label = document.createElement('span');
+    label.className = 'quickbar-label';
+    label.textContent = 'Quick actions';
+    var load = document.createElement('button');
+    load.type = 'button';
+    load.className = 'secondary-btn';
+    load.textContent = 'Load sample';
+    var clear = document.createElement('button');
+    clear.type = 'button';
+    clear.className = 'secondary-btn';
+    clear.textContent = 'Clear';
+    var copy = document.createElement('button');
+    copy.type = 'button';
+    copy.className = 'secondary-btn';
+    copy.textContent = 'Copy result';
+    var note = document.createElement('span');
+    note.className = 'copy-note';
+    load.addEventListener('click', function(){
+      root.querySelectorAll('input, textarea').forEach(function(node){
+        var value = sampleValue(node, tool);
+        if(value === null) return;
+        node.value = value;
+        fire(node);
+      });
+      root.querySelectorAll('select').forEach(function(node){ if(node.options.length) node.selectedIndex = 0; fire(node); });
+    });
+    clear.addEventListener('click', function(){
+      root.querySelectorAll('input, textarea').forEach(function(node){
+        var type = (node.getAttribute('type') || '').toLowerCase();
+        if(type === 'file') return;
+        if(type === 'color') node.value = '#0f766e';
+        else if(type === 'number') node.value = '';
+        else node.value = '';
+        fire(node);
+      });
+    });
+    copy.addEventListener('click', function(){
+      var out = root.querySelector('.output-box, .stats-grid, .palette, .image-preview');
+      copyText(out ? out.textContent.trim() : '', note);
+    });
+    bar.appendChild(label);
+    bar.appendChild(load);
+    bar.appendChild(clear);
+    bar.appendChild(copy);
+    bar.appendChild(note);
+    form.insertBefore(bar, form.firstChild);
+  }
+  ready(function(){
+    setTimeout(enhance, 80);
+    setTimeout(enhance, 350);
+  });
+})();
+
 /* ToolVanta premium tool fixes */
 (function(){
   function ready(fn){ if(document.readyState !== 'loading') fn(); else document.addEventListener('DOMContentLoaded', fn); }
