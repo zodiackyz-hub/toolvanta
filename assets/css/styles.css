@@ -463,3 +463,163 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* Dark mode, favorites, and advanced finder */
+.theme-toggle {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text);
+  font-weight: 850;
+  min-height: 38px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.favorite-btn {
+  border: 1px solid rgba(13, 148, 136, .18);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--brand);
+  font-size: .78rem;
+  font-weight: 850;
+  padding: 5px 9px;
+  cursor: pointer;
+}
+.favorite-btn.saved {
+  background: #0f766e;
+  color: #fff;
+  border-color: #0f766e;
+}
+.finder-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  margin-top: 14px;
+}
+.finder-options label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: .92rem;
+  font-weight: 800;
+}
+.finder-options select {
+  min-height: 40px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text);
+  padding: 8px 10px;
+}
+.toggle-line input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--brand);
+}
+.empty-state {
+  margin: 16px 0 44px;
+  padding: 18px;
+  border: 1px solid rgba(13, 148, 136, .18);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow-soft);
+}
+.empty-state strong,
+.empty-state span {
+  display: block;
+}
+.empty-state span {
+  color: var(--muted);
+}
+.favorite-section {
+  padding-top: 10px;
+}
+html[data-theme="dark"] {
+  --bg: #0f172a;
+  --surface: #111c31;
+  --surface-2: #12263a;
+  --text: #e5edf6;
+  --muted: #9fb0c3;
+  --line: #26364c;
+  --brand: #2dd4bf;
+  --brand-dark: #14b8a6;
+  --brand-soft: rgba(45, 212, 191, .12);
+  --accent: #fb7185;
+  --amber: #f59e0b;
+  --shadow: 0 18px 48px rgba(0, 0, 0, .28);
+  --shadow-soft: 0 8px 22px rgba(0, 0, 0, .22);
+  color-scheme: dark;
+}
+html[data-theme="dark"] body {
+  background:
+    linear-gradient(180deg, #0f172a 0, #101b2e 420px),
+    radial-gradient(circle at 25% 0, rgba(45, 212, 191, .12), transparent 32%),
+    var(--bg);
+}
+html[data-theme="dark"] .site-header,
+html[data-theme="dark"] .tool-finder,
+html[data-theme="dark"] .tool-card,
+html[data-theme="dark"] .category-overview,
+html[data-theme="dark"] .tool-panel,
+html[data-theme="dark"] .related-box,
+html[data-theme="dark"] .seo-content,
+html[data-theme="dark"] .mini-tool-link,
+html[data-theme="dark"] .workflow-grid a,
+html[data-theme="dark"] .empty-state,
+html[data-theme="dark"] .theme-toggle,
+html[data-theme="dark"] .favorite-btn,
+html[data-theme="dark"] .field input,
+html[data-theme="dark"] .field textarea,
+html[data-theme="dark"] .field select,
+html[data-theme="dark"] .tool-search,
+html[data-theme="dark"] .finder-options select {
+  background: #111c31;
+  color: var(--text);
+}
+html[data-theme="dark"] .home-hero,
+html[data-theme="dark"] .page-hero,
+html[data-theme="dark"] .workflow-band,
+html[data-theme="dark"] .category-workflow,
+html[data-theme="dark"] .quality-promise,
+html[data-theme="dark"] .feature-band,
+html[data-theme="dark"] .trust-strip div,
+html[data-theme="dark"] .tool-quality-box div,
+html[data-theme="dark"] .stat-card,
+html[data-theme="dark"] .output-box,
+html[data-theme="dark"] .tool-quickbar,
+html[data-theme="dark"] .ad-slot {
+  background: linear-gradient(180deg, #111c31, #0f1a2d);
+}
+html[data-theme="dark"] .main-nav a {
+  color: #d9e5f2;
+}
+html[data-theme="dark"] .category-pill,
+html[data-theme="dark"] .count-badge {
+  background: rgba(245, 158, 11, .12);
+  color: #fbbf24;
+}
+html[data-theme="dark"] .tool-icon {
+  background: rgba(45, 212, 191, .12);
+  color: #5eead4;
+}
+html[data-theme="dark"] .favorite-btn.saved {
+  background: #14b8a6;
+  color: #06201d;
+}
+@media (max-width: 680px) {
+  .theme-toggle {
+    order: 2;
+    min-height: 36px;
+    padding: 7px 10px;
+  }
+  .finder-options {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .finder-options label,
+  .finder-options select {
+    width: 100%;
+  }
+}

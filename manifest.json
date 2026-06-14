@@ -3,14 +3,38 @@
   "short_name": "ToolVanta",
   "description": "Fast, private, browser-based online tools for AI, SEO, text, developers, marketing, social media, calculators, images, and productivity.",
   "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "browser"],
+  "orientation": "any",
   "background_color": "#f7f8fb",
   "theme_color": "#0f766e",
+  "categories": ["productivity", "utilities", "developer", "business"],
   "icons": [
     {
       "src": "assets/img/favicon.svg",
       "sizes": "64x64",
       "type": "image/svg+xml"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "All Tools",
+      "short_name": "Tools",
+      "description": "Browse every ToolVanta utility.",
+      "url": "tools/index.html"
+    },
+    {
+      "name": "SEO Tools",
+      "short_name": "SEO",
+      "description": "Open SEO tools.",
+      "url": "categories/seo/"
+    },
+    {
+      "name": "JSON Formatter",
+      "short_name": "JSON",
+      "description": "Format JSON in the browser.",
+      "url": "tools/json-formatter/"
     }
   ]
 }
