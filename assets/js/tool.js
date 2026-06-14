@@ -786,6 +786,152 @@
   });
 })();
 
+/* ToolVanta premium tool fixes */
+(function(){
+  function ready(fn){ if(document.readyState !== 'loading') fn(); else document.addEventListener('DOMContentLoaded', fn); }
+  function el(tag, attrs){
+    var n=document.createElement(tag); attrs=attrs||{};
+    Object.keys(attrs).forEach(function(k){
+      if(k==='class') n.className=attrs[k];
+      else if(k==='text') n.textContent=attrs[k];
+      else if(k==='html') n.innerHTML=attrs[k];
+      else if(k==='for') n.htmlFor=attrs[k];
+      else if(k.indexOf('on')===0 && typeof attrs[k]==='function') n.addEventListener(k.slice(2), attrs[k]);
+      else n.setAttribute(k, attrs[k]);
+    });
+    for(var i=2;i<arguments.length;i++){ var c=arguments[i]; if(c==null) continue; if(Array.isArray(c)) c.forEach(function(x){ if(x) n.appendChild(x); }); else if(typeof c==='string') n.appendChild(document.createTextNode(c)); else n.appendChild(c); }
+    return n;
+  }
+  function input(type,value,attrs){ attrs=attrs||{}; attrs.type=type; var n=el('input',attrs); if(value!=null) n.value=value; return n; }
+  function textarea(value,attrs){ var n=el('textarea',attrs||{}); if(value!=null) n.value=value; return n; }
+  function select(items,value){ var s=el('select'); items.forEach(function(x){ s.appendChild(el('option',{value:x[0],text:x[1]})); }); if(value!=null) s.value=value; return s; }
+  function field(label,node,help){ var id=node.id||('tvp-'+Math.random().toString(36).slice(2)); node.id=id; var f=el('div',{class:'field'},el('label',{for:id,text:label}),node); if(help) f.appendChild(el('small',{text:help})); return f; }
+  function box(label){ var b=el('div',{class:'output-box premium-output',role:'status','aria-live':'polite'}); return {box:b,wrap:el('div',{class:'field'},el('label',{text:label}),b)}; }
+  function button(text,fn,kind){ return el('button',{type:'button',class:kind||'primary-btn',onclick:fn,text:text}); }
+  function row(){ return el('div',{class:'action-row'}); }
+  function lines(t){ return String(t||'').split(/\r?\n/); }
+  function words(t){ return String(t||'').trim()?String(t).trim().split(/\s+/).filter(Boolean):[]; }
+  function fmt(n,d){ return Number.isFinite(n)?new Intl.NumberFormat('en-US',{maximumFractionDigits:d==null?2:d}).format(n):'0'; }
+  function copy(text,note){ if(!text) return; if(navigator.clipboard) navigator.clipboard.writeText(text).then(function(){ if(note){ note.textContent='Copied'; setTimeout(function(){note.textContent='';},1500); } }); }
+  function hex2rgb(hex){ hex=String(hex).trim().replace('#',''); if(hex.length===3) hex=hex.split('').map(function(c){return c+c;}).join(''); var n=parseInt(hex,16); return isNaN(n)?null:{r:(n>>16)&255,g:(n>>8)&255,b:n&255}; }
+  function rgb2hex(r,g,b){ return '#'+[r,g,b].map(function(x){ return Math.max(0,Math.min(255,Math.round(x))).toString(16).padStart(2,'0'); }).join('').toUpperCase(); }
+  function rgb2hsl(r,g,b){ r/=255; g/=255; b/=255; var max=Math.max(r,g,b), min=Math.min(r,g,b), h=0, s=0, l=(max+min)/2; if(max!==min){ var d=max-min; s=l>.5?d/(2-max-min):d/(max+min); switch(max){case r:h=(g-b)/d+(g<b?6:0);break;case g:h=(b-r)/d+2;break;case b:h=(r-g)/d+4;break;} h*=60; } return {h:Math.round(h),s:Math.round(s*100),l:Math.round(l*100)}; }
+  function renderRegex(root){
+    root.innerHTML='';
+    var pattern=input('text','\\btool\\w*\\b'), flags=input('text','gi'), sample=textarea('ToolVanta includes useful tools for SEO, text, developers, and marketing.'), out=box('Matches'), note=el('span',{class:'copy-note'});
+    function run(){ try{ var re=new RegExp(pattern.value, flags.value.replace(/[^gimsuy]/g,'')); var matches=sample.value.match(re)||[]; out.box.classList.remove('error'); out.box.textContent='Matches: '+matches.length+'\n\n'+(matches.join('\n')||'No matches found.'); }catch(e){ out.box.classList.add('error'); out.box.textContent=e.message; } }
+    [pattern,flags,sample].forEach(function(x){x.addEventListener('input',run);});
+    root.appendChild(el('div',{class:'tool-form'},el('div',{class:'inline-grid'},field('Regular expression',pattern),field('Flags',flags,'Use JavaScript flags such as g, i, m, s.')),field('Test text',sample),out.wrap,el('div',{class:'action-row'},button('Test regex',run),button('Copy matches',function(){copy(out.box.textContent,note);},'secondary-btn'),note)));
+    run();
+  }
+  function renderJwt(root){
+    root.innerHTML='';
+    var token=textarea('',{placeholder:'Paste a JWT token with header.payload.signature'}), out=box('Decoded JWT');
+    function decodePart(part){ part=part.replace(/-/g,'+').replace(/_/g,'/'); while(part.length%4) part+='='; return decodeURIComponent(Array.prototype.map.call(atob(part),function(c){ return '%'+('00'+c.charCodeAt(0).toString(16)).slice(-2); }).join('')); }
+    function run(){ try{ var p=token.value.trim().split('.'); if(p.length<2){ out.box.textContent='Paste a JWT token to decode its header and payload.'; out.box.classList.remove('error'); return; } var header=JSON.parse(decodePart(p[0])); var payload=JSON.parse(decodePart(p[1])); out.box.classList.remove('error'); out.box.textContent='Header\n'+JSON.stringify(header,null,2)+'\n\nPayload\n'+JSON.stringify(payload,null,2)+'\n\nSignature present: '+(p[2]?'Yes':'No'); }catch(e){ out.box.classList.add('error'); out.box.textContent='Invalid JWT: '+e.message; } }
+    token.addEventListener('input',run);
+    root.appendChild(el('div',{class:'tool-form'},field('JWT token',token),out.wrap,el('div',{class:'action-row'},button('Decode JWT',run))));
+    run();
+  }
+  function renderColorConverter(root){
+    root.innerHTML='';
+    var color=input('color','#0f766e'), text=input('text','#0f766e'), preview=el('div',{class:'color-preview'}), out=box('Color values'), note=el('span',{class:'copy-note'});
+    function run(fromText){ var rgb=hex2rgb(fromText?text.value:color.value); if(!rgb){ out.box.classList.add('error'); out.box.textContent='Enter a valid HEX color, for example #0F766E.'; return; } var hex=rgb2hex(rgb.r,rgb.g,rgb.b), hsl=rgb2hsl(rgb.r,rgb.g,rgb.b); color.value=hex; text.value=hex; preview.style.background=hex; out.box.classList.remove('error'); out.box.textContent='HEX: '+hex+'\nRGB: rgb('+rgb.r+', '+rgb.g+', '+rgb.b+')\nHSL: hsl('+hsl.h+', '+hsl.s+'%, '+hsl.l+'%)'; }
+    color.addEventListener('input',function(){run(false);}); text.addEventListener('input',function(){run(true);});
+    root.appendChild(el('div',{class:'tool-form'},el('div',{class:'inline-grid'},field('Pick color',color),field('HEX value',text)),preview,out.wrap,el('div',{class:'action-row'},button('Convert color',function(){run(true);}),button('Copy values',function(){copy(out.box.textContent,note);},'secondary-btn'),note)));
+    run(false);
+  }
+  function renderUtm(root){
+    root.innerHTML='';
+    var url=input('url','https://toolvanta.space/'), source=input('text','google'), medium=input('text','organic'), campaign=input('text','tool-launch'), term=input('text','free tools'), content=input('text','hero-link'), out=box('Campaign URL'), note=el('span',{class:'copy-note'});
+    function run(){ try{ var u=new URL(url.value); [['utm_source',source.value],['utm_medium',medium.value],['utm_campaign',campaign.value],['utm_term',term.value],['utm_content',content.value]].forEach(function(pair){ if(pair[1]) u.searchParams.set(pair[0],pair[1]); }); out.box.classList.remove('error'); out.box.textContent=u.toString(); }catch(e){ out.box.classList.add('error'); out.box.textContent='Enter a full URL such as https://example.com/page'; } }
+    [url,source,medium,campaign,term,content].forEach(function(x){x.addEventListener('input',run);});
+    root.appendChild(el('div',{class:'tool-form'},field('Landing page URL',url),el('div',{class:'three-grid'},field('Source',source),field('Medium',medium),field('Campaign',campaign)),el('div',{class:'inline-grid'},field('Term',term),field('Content',content)),out.wrap,el('div',{class:'action-row'},button('Build URL',run),button('Copy URL',function(){copy(out.box.textContent,note);},'secondary-btn'),note)));
+    run();
+  }
+  function renderDateDuration(root){
+    root.innerHTML='';
+    var a=input('date','2026-01-01'), b=input('date','2026-12-31'), out=box('Date duration');
+    function run(){ var A=new Date(a.value+'T00:00:00'), B=new Date(b.value+'T00:00:00'), days=Math.round((B-A)/86400000); out.box.textContent='Days: '+fmt(Math.abs(days),0)+'\nWeeks: '+fmt(Math.abs(days)/7,2)+'\nApprox. months: '+fmt(Math.abs(days)/30.4375,2)+'\nDirection: '+(days>=0?'Forward':'Backward'); }
+    [a,b].forEach(function(x){x.addEventListener('input',run);});
+    root.appendChild(el('div',{class:'tool-form'},el('div',{class:'inline-grid'},field('Start date',a),field('End date',b)),out.wrap));
+    run();
+  }
+  function renderTimeDuration(root){
+    root.innerHTML='';
+    var a=input('time','09:00'), b=input('time','17:30'), out=box('Time duration');
+    function minutes(v){ var p=v.split(':'); return (+p[0]||0)*60+(+p[1]||0); }
+    function run(){ var diff=minutes(b.value)-minutes(a.value); if(diff<0) diff+=1440; out.box.textContent='Minutes: '+diff+'\nHours: '+fmt(diff/60,2)+'\nDecimal workday: '+fmt(diff/480,2)+' days'; }
+    [a,b].forEach(function(x){x.addEventListener('input',run);});
+    root.appendChild(el('div',{class:'tool-form'},el('div',{class:'inline-grid'},field('Start time',a),field('End time',b)),out.wrap));
+    run();
+  }
+  function renderImageRatio(root){
+    root.innerHTML='';
+    var w=input('number','1920'), h=input('number','1080'), target=select([['1.7777777778','16:9'],['1.3333333333','4:3'],['1','1:1'],['0.8','4:5'],['0.5625','9:16']], '1.7777777778'), out=box('Crop guidance');
+    function gcd(a,b){ return b?gcd(b,a%b):a; }
+    function run(){ var W=Math.max(1,+w.value||1), H=Math.max(1,+h.value||1), g=gcd(Math.round(W),Math.round(H)), r=+target.value, cropW=Math.min(W,H*r), cropH=Math.min(H,W/r); out.box.textContent='Current ratio: '+Math.round(W/g)+':'+Math.round(H/g)+'\nTarget ratio: '+target.options[target.selectedIndex].text+'\nRecommended crop: '+Math.round(cropW)+' x '+Math.round(cropH)+' px\nTrim width: '+Math.round(W-cropW)+' px\nTrim height: '+Math.round(H-cropH)+' px'; }
+    [w,h,target].forEach(function(x){x.addEventListener('input',run);x.addEventListener('change',run);});
+    root.appendChild(el('div',{class:'tool-form'},el('div',{class:'three-grid'},field('Image width',w),field('Image height',h),field('Target ratio',target)),out.wrap));
+    run();
+  }
+  function renderImageColors(root){
+    root.innerHTML='';
+    var file=input('file',null,{accept:'image/*'}), preview=el('div',{class:'image-preview'}), palette=el('div',{class:'palette'}), out=box('Extracted colors');
+    function swatch(hex){ return el('button',{type:'button',class:'swatch',style:'background:'+hex,onclick:function(){copy(hex);},text:hex}); }
+    function run(){ var f=file.files&&file.files[0]; if(!f){ out.box.textContent='Upload an image to extract a small browser-side color palette.'; return; } var fr=new FileReader(); fr.onload=function(){ var img=new Image(); img.onload=function(){ var c=document.createElement('canvas'), ctx=c.getContext('2d'), size=80; c.width=size; c.height=size; ctx.drawImage(img,0,0,size,size); var data=ctx.getImageData(0,0,size,size).data, buckets={}; for(var i=0;i<data.length;i+=64){ var r=Math.round(data[i]/32)*32, g=Math.round(data[i+1]/32)*32, b=Math.round(data[i+2]/32)*32, key=rgb2hex(r,g,b); buckets[key]=(buckets[key]||0)+1; } var colors=Object.keys(buckets).sort(function(a,b){return buckets[b]-buckets[a];}).slice(0,8); preview.innerHTML=''; preview.appendChild(img); palette.innerHTML=''; colors.forEach(function(hex){ palette.appendChild(swatch(hex)); }); out.box.textContent=colors.join('\n'); }; img.src=fr.result; }; fr.readAsDataURL(f); }
+    file.addEventListener('change',run);
+    root.appendChild(el('div',{class:'tool-form'},field('Image file',file),preview,palette,out.wrap));
+    run();
+  }
+  function renderSocialCount(root,kind){
+    root.innerHTML='';
+    var text=textarea('Launch day: free online tools for creators, marketers, and developers. #tools #seo'), out=box('Social analysis');
+    function run(){ var hashtags=(text.value.match(/#[\w]+/g)||[]), emoji=(text.value.match(/[\u{1F300}-\u{1FAFF}]/gu)||[]), chars=text.value.length; if(kind==='emoji') out.box.textContent='Emoji count: '+emoji.length+'\nCharacters: '+chars; else if(kind==='hashtag') out.box.textContent='Hashtags: '+hashtags.length+'\n\n'+(hashtags.join('\n')||'No hashtags found.'); else out.box.textContent='Characters: '+chars+'\nX remaining: '+(280-chars)+'\nInstagram caption remaining: '+(2200-chars)+'\nLinkedIn post remaining: '+(3000-chars); }
+    text.addEventListener('input',run);
+    root.appendChild(el('div',{class:'tool-form'},field('Post text',text),out.wrap));
+    run();
+  }
+  function renderKeywordCluster(root){
+    root.innerHTML='';
+    var src=textarea('free online tools\nonline tools for SEO\nfree SEO tools\nAI prompt generator\nAI writing prompt tool'), out=box('Keyword clusters'), note=el('span',{class:'copy-note'});
+    function run(){ var groups={}; lines(src.value).map(function(x){return x.trim();}).filter(Boolean).forEach(function(k){ var head=(k.toLowerCase().match(/[a-z0-9]+/)||['other'])[0]; (groups[head]=groups[head]||[]).push(k); }); out.box.textContent=Object.keys(groups).sort().map(function(g){ return g.toUpperCase()+':\n- '+groups[g].join('\n- '); }).join('\n\n'); }
+    src.addEventListener('input',run);
+    root.appendChild(el('div',{class:'tool-form'},field('Keywords, one per line',src),out.wrap,el('div',{class:'action-row'},button('Cluster keywords',run),button('Copy clusters',function(){copy(out.box.textContent,note);},'secondary-btn'),note)));
+    run();
+  }
+  function renderTodoSorter(root){
+    root.innerHTML='';
+    var src=textarea('High | Fix broken tool\nMedium | Improve footer links\nLow | Draft social post'), out=box('Sorted task list');
+    function score(line){ var l=line.toLowerCase(); return l.indexOf('high')!==-1?0:l.indexOf('medium')!==-1?1:l.indexOf('low')!==-1?2:3; }
+    function run(){ out.box.textContent=lines(src.value).filter(Boolean).sort(function(a,b){return score(a)-score(b)||a.localeCompare(b);}).join('\n'); }
+    src.addEventListener('input',run);
+    root.appendChild(el('div',{class:'tool-form'},field('Tasks with priority',src,'Use lines like High | Task name.'),out.wrap));
+    run();
+  }
+  var premium = {
+    'regex-tester': renderRegex,
+    'jwt-decoder': renderJwt,
+    'color-converter': renderColorConverter,
+    'utm-url-builder': renderUtm,
+    'date-duration-calculator': renderDateDuration,
+    'time-duration-calculator': renderTimeDuration,
+    'image-crop-ratio-calculator': renderImageRatio,
+    'image-color-extractor': renderImageColors,
+    'emoji-counter': function(root){renderSocialCount(root,'emoji');},
+    'hashtag-counter': function(root){renderSocialCount(root,'hashtag');},
+    'social-character-limit-checker': function(root){renderSocialCount(root,'limit');},
+    'keyword-cluster-generator': renderKeywordCluster,
+    'to-do-list-sorter': renderTodoSorter
+  };
+  ready(function(){
+    var root=document.getElementById('tool-root');
+    if(!root) return;
+    var id=root.getAttribute('data-tool-id');
+    if(premium[id]) premium[id](root);
+  });
+})();
+
 /* ToolVanta compact SEO expansion renderers */
 (function(){
   function ready(fn){ if(document.readyState !== 'loading') fn(); else document.addEventListener('DOMContentLoaded', fn); }
