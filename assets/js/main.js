@@ -1,6 +1,7 @@
 (function(){
   var STORAGE_THEME = 'toolvanta_theme';
   var STORAGE_FAVORITES = 'toolvanta_favorites';
+  var STORAGE_TOOLKIT = 'toolvanta_toolkit';
 
   function ready(fn){
     if(document.readyState !== 'loading') fn();
@@ -33,6 +34,13 @@
         var open = nav.classList.toggle('open');
         toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
       });
+    }
+    if(nav && !nav.querySelector('a[href*="use-cases"]')){
+      var use = document.createElement('a');
+      use.href = pathToRoot() + 'use-cases/index.html';
+      use.textContent = 'Use Cases';
+      var about = nav.querySelector('a[href*="about"]');
+      nav.insertBefore(use, about || null);
     }
     var header = document.querySelector('.header-inner');
     if(!header || document.querySelector('.theme-toggle')) return;
@@ -89,6 +97,18 @@
     if(value) list.unshift(id);
     saveJson(STORAGE_FAVORITES, list.slice(0, 80));
   }
+  function toolkit(){
+    return safeJson(STORAGE_TOOLKIT, []);
+  }
+  function isInToolkit(id){
+    return toolkit().indexOf(id) !== -1;
+  }
+  function setToolkit(id, value){
+    if(!id) return;
+    var list = toolkit().filter(function(x){ return x !== id; });
+    if(value) list.unshift(id);
+    saveJson(STORAGE_TOOLKIT, list.slice(0, 40));
+  }
   function miniLink(t){
     return '<a class="mini-tool-link" href="'+t.path+'"><span>'+t.name+'</span><small>'+categoryName(t.category)+'</small></a>';
   }
@@ -121,6 +141,26 @@
       });
       top.appendChild(btn);
       paint();
+      var kit = document.createElement('button');
+      kit.type = 'button';
+      kit.className = 'favorite-btn toolkit-btn';
+      kit.setAttribute('aria-label', 'Add tool to toolkit');
+      function paintKit(){
+        var saved = isInToolkit(id);
+        kit.textContent = saved ? 'In Toolkit' : 'Toolkit';
+        kit.classList.toggle('saved', saved);
+        kit.setAttribute('aria-pressed', saved ? 'true' : 'false');
+      }
+      kit.addEventListener('click', function(event){
+        event.preventDefault();
+        event.stopPropagation();
+        setToolkit(id, !isInToolkit(id));
+        paintKit();
+        renderToolkitPanel();
+        renderHomeDashboard();
+      });
+      top.appendChild(kit);
+      paintKit();
     });
   }
 
@@ -220,6 +260,43 @@
     section.innerHTML = '<div class="section-head"><h2>Favorite Tools</h2><p class="muted">Saved locally in your browser.</p></div><div class="mini-link-grid" id="favorite-tools"></div>';
     recent.parentNode.insertBefore(section, recent);
   }
+  function renderToolkitPanel(){
+    var box = document.getElementById('toolkit-tools');
+    if(!box) return;
+    var list = toolkit().map(toolById).filter(Boolean).slice(0, 10);
+    box.innerHTML = list.length ? list.map(miniLink).join('') : '<p class="muted">Add tools with the Toolkit button to build your personal workflow.</p>';
+  }
+  function favoriteCategory(){
+    var counts = {};
+    safeJson('toolvanta_recent', []).map(toolById).filter(Boolean).forEach(function(t){ counts[t.category] = (counts[t.category] || 0) + 1; });
+    var best = Object.keys(counts).sort(function(a,b){ return counts[b] - counts[a]; })[0];
+    return best ? categoryName(best) : 'None yet';
+  }
+  function renderHomeDashboard(){
+    var box = document.getElementById('toolvanta-dashboard');
+    if(!box) return;
+    var recent = safeJson('toolvanta_recent', []);
+    box.innerHTML = '<div><strong>'+recent.length+'</strong><span>Recently used</span></div><div><strong>'+favorites().length+'</strong><span>Favorites</span></div><div><strong>'+toolkit().length+'</strong><span>Toolkit tools</span></div><div><strong>'+favoriteCategory()+'</strong><span>Top category</span></div>';
+  }
+  function insertHomeAppPanels(){
+    if(!document.getElementById('recent-tools') || document.getElementById('toolvanta-dashboard')) return;
+    var anchor = document.querySelector('.trust-strip') || document.querySelector('.workflow-band');
+    if(anchor && anchor.parentNode){
+      var dash = document.createElement('section');
+      dash.className = 'container app-dashboard';
+      dash.innerHTML = '<div class="section-head"><div><p class="eyebrow">Your local workspace</p><h2>Continue where you left off</h2></div><button class="secondary-btn command-open" type="button">Open Command Palette</button></div><div class="dashboard-grid" id="toolvanta-dashboard"></div>';
+      anchor.parentNode.insertBefore(dash, anchor.nextSibling);
+    }
+    var recent = document.querySelector('.recent-section');
+    if(recent && recent.parentNode && !document.getElementById('toolkit-tools')){
+      var kit = document.createElement('section');
+      kit.className = 'container section toolkit-section';
+      kit.innerHTML = '<div class="section-head"><div><h2>My Toolkit</h2><p class="muted">A browser-only toolkit saved locally on this device.</p></div><a class="text-link" href="tools/index.html">Add more tools</a></div><div class="mini-link-grid" id="toolkit-tools"></div>';
+      recent.parentNode.insertBefore(kit, recent);
+    }
+    renderHomeDashboard();
+    renderToolkitPanel();
+  }
   function initRecent(){
     var box = document.getElementById('recent-tools');
     if(box && window.TOOLVANTA_TOOLS){
@@ -228,7 +305,90 @@
       if(recentTools.length) box.innerHTML = recentTools.map(miniLink).join('');
     }
     insertHomeFavoritePanel();
+    insertHomeAppPanels();
     renderFavoritesPanel();
+    renderToolkitPanel();
+    renderHomeDashboard();
+  }
+
+  function commandItems(){
+    var domCards = Array.prototype.slice.call(document.querySelectorAll('.tool-card h2 a')).map(function(link){
+      var card = link.closest('.tool-card');
+      return {
+        name: link.textContent.trim(),
+        category: card ? categoryName(card.dataset.category || '') : 'Tool',
+        path: link.getAttribute('href'),
+        keywords: card ? (card.dataset.keywords || card.textContent || '') : ''
+      };
+    });
+    var staticItems = [
+      { name:'All Tools', category:'Navigation', path:pathToRoot() + 'tools/index.html', keywords:'browse tools search' },
+      { name:'Resources', category:'Navigation', path:pathToRoot() + 'resources/index.html', keywords:'guides workflows' },
+      { name:'Use Cases', category:'Navigation', path:pathToRoot() + 'use-cases/index.html', keywords:'toolkits personas' },
+      { name:'Changelog', category:'Navigation', path:pathToRoot() + 'changelog.html', keywords:'updates product history' },
+      { name:'SEO Toolkit', category:'Use Case', path:pathToRoot() + 'resources/best-free-seo-tools/', keywords:'seo workflow' },
+      { name:'Developer Toolkit', category:'Use Case', path:pathToRoot() + 'use-cases/developers/', keywords:'json encoding developer' }
+    ];
+    var dataItems = tools().map(function(t){ return { name:t.name, category:categoryName(t.category), path:pathToRoot() + t.path, keywords:(t.keywords || []).join(' ') }; });
+    return (dataItems.length ? dataItems : domCards).concat(staticItems);
+  }
+  function pathToRoot(){
+    var path = location.pathname;
+    var parts = path.split('/').filter(Boolean);
+    if(!parts.length || /index\.html$/.test(path) && parts.length === 1) return '';
+    var depth = /\/$/.test(path) ? parts.length : Math.max(0, parts.length - 1);
+    return new Array(depth + 1).join('../');
+  }
+  function initCommandPalette(){
+    if(document.getElementById('command-palette')) return;
+    var shell = document.createElement('div');
+    shell.id = 'command-palette';
+    shell.className = 'command-palette hidden';
+    shell.innerHTML = '<div class="command-dialog" role="dialog" aria-modal="true" aria-label="Command palette"><div class="command-head"><strong>Search ToolVanta</strong><span>Ctrl K</span></div><input id="command-search" type="search" placeholder="Search tools, resources, use cases..." autocomplete="off"><div class="command-results" id="command-results"><a class="command-item" href="'+pathToRoot()+'tools/index.html"><span>All Tools</span><small>Navigation</small></a><a class="command-item" href="'+pathToRoot()+'resources/index.html"><span>Resources</span><small>Navigation</small></a><a class="command-item" href="'+pathToRoot()+'use-cases/index.html"><span>Use Cases</span><small>Navigation</small></a><a class="command-item" href="'+pathToRoot()+'tools/word-counter/"><span>Word Counter</span><small>Text</small></a><a class="command-item" href="'+pathToRoot()+'tools/json-formatter/"><span>JSON Formatter</span><small>Developer</small></a></div></div>';
+    document.body.appendChild(shell);
+    var input = document.getElementById('command-search');
+    var results = document.getElementById('command-results');
+    function close(){ shell.classList.add('hidden'); }
+    function open(){
+      shell.classList.remove('hidden');
+      input.value = '';
+      render('');
+      setTimeout(function(){ input.focus(); }, 20);
+    }
+    function render(q){
+      q = (q || '').toLowerCase().trim();
+      var list = commandItems().filter(function(item){
+        var hay = (item.name + ' ' + item.category + ' ' + (item.keywords || '')).toLowerCase();
+        return !q || hay.indexOf(q) !== -1;
+      }).slice(0, 9);
+      if(!list.length){
+        list = [
+          { name:'All Tools', category:'Navigation', path:pathToRoot() + 'tools/index.html' },
+          { name:'Resources', category:'Navigation', path:pathToRoot() + 'resources/index.html' },
+          { name:'Use Cases', category:'Navigation', path:pathToRoot() + 'use-cases/index.html' },
+          { name:'Word Counter', category:'Text', path:pathToRoot() + 'tools/word-counter/' },
+          { name:'JSON Formatter', category:'Developer', path:pathToRoot() + 'tools/json-formatter/' }
+        ];
+      }
+      results.innerHTML = list.length ? list.map(function(item){
+        return '<a class="command-item" href="'+item.path+'"><span>'+item.name+'</span><small>'+item.category+'</small></a>';
+      }).join('') : '<p class="muted">No match. Try a category, tool name, or workflow.</p>';
+    }
+    input.addEventListener('input', function(){ render(input.value); });
+    shell.addEventListener('click', function(event){ if(event.target === shell) close(); });
+    document.addEventListener('keydown', function(event){
+      if((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k'){ event.preventDefault(); open(); }
+      else if(event.key === '/' && !/input|textarea|select/i.test(document.activeElement.tagName)){ event.preventDefault(); open(); }
+      else if(event.key === 'Escape' && !shell.classList.contains('hidden')) close();
+    });
+    document.querySelectorAll('.command-open').forEach(function(btn){ btn.addEventListener('click', open); });
+    window.ToolVantaCommand = { open: open };
+    render('');
+    setTimeout(function(){
+      if(results && !results.querySelector('.command-item')){
+        results.innerHTML = '<a class="command-item" href="'+pathToRoot()+'tools/index.html"><span>All Tools</span><small>Navigation</small></a><a class="command-item" href="'+pathToRoot()+'resources/index.html"><span>Resources</span><small>Navigation</small></a><a class="command-item" href="'+pathToRoot()+'use-cases/index.html"><span>Use Cases</span><small>Navigation</small></a><a class="command-item" href="'+pathToRoot()+'tools/word-counter/"><span>Word Counter</span><small>Text</small></a><a class="command-item" href="'+pathToRoot()+'tools/json-formatter/"><span>JSON Formatter</span><small>Developer</small></a>';
+      }
+    }, 120);
   }
 
   function registerServiceWorker(){
@@ -244,6 +404,7 @@
     initYear();
     initFinder();
     initRecent();
+    initCommandPalette();
     registerServiceWorker();
   });
 })();

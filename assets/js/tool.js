@@ -786,6 +786,224 @@
   });
 })();
 
+/* Universal professional actions for every browser tool */
+(function(){
+  function ready(fn){ if(document.readyState !== 'loading') fn(); else document.addEventListener('DOMContentLoaded', fn); }
+  function $(sel, root){ return (root || document).querySelector(sel); }
+  function $all(sel, root){ return Array.prototype.slice.call((root || document).querySelectorAll(sel)); }
+  function button(text, fn, cls){
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = cls || 'secondary-btn';
+    b.textContent = text;
+    b.addEventListener('click', fn);
+    return b;
+  }
+  function setValue(el, value){
+    if(el.type === 'file') return;
+    if(el.type === 'checkbox') el.checked = !!value;
+    else el.value = value;
+    el.dispatchEvent(new Event('input', { bubbles:true }));
+    el.dispatchEvent(new Event('change', { bubbles:true }));
+  }
+  function outputText(root){
+    var box = $('.output-box', root);
+    if(!box) return '';
+    return box.innerText || box.textContent || '';
+  }
+  function copyText(text, note){
+    if(!text) return;
+    function done(){ if(note){ note.textContent = 'Copied'; setTimeout(function(){ note.textContent = ''; }, 1600); } }
+    if(navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(text).then(done).catch(fallback);
+    else fallback();
+    function fallback(){
+      var t = document.createElement('textarea');
+      t.value = text;
+      t.setAttribute('readonly', '');
+      t.style.position = 'fixed';
+      t.style.left = '-999px';
+      document.body.appendChild(t);
+      t.select();
+      try { document.execCommand('copy'); done(); } catch(e) {}
+      document.body.removeChild(t);
+    }
+  }
+  function downloadText(filename, text){
+    if(!text) return;
+    var blob = new Blob([text], { type:'text/plain;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+  function markdownResult(tool, text){
+    var name = (tool && tool.name) || 'ToolVanta Result';
+    var lines = [
+      '# ' + name + ' Result',
+      '',
+      'Generated with ToolVanta.',
+      '',
+      '```text',
+      String(text || '').trim(),
+      '```'
+    ];
+    return lines.join('\n');
+  }
+  function downloadJson(id, tool, text){
+    if(!text) return;
+    var payload = {
+      tool: (tool && tool.name) || id || 'ToolVanta tool',
+      toolId: id || 'toolvanta-result',
+      generatedAt: new Date().toISOString(),
+      result: String(text || '')
+    };
+    var blob = new Blob([JSON.stringify(payload, null, 2)], { type:'application/json;charset=utf-8' });
+    var url = URL.createObjectURL(blob);
+    var a = document.createElement('a');
+    a.href = url;
+    a.download = (id || 'toolvanta') + '-result.json';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  }
+  function printResult(tool, text){
+    if(!text) return;
+    var name = ((tool && tool.name) || 'ToolVanta Result').replace(/[<>&]/g, '');
+    var w = window.open('', '_blank', 'noopener,noreferrer');
+    if(!w) return;
+    w.document.write('<!doctype html><html><head><title>'+name+'</title><meta name="viewport" content="width=device-width, initial-scale=1"><style>body{font-family:Arial,sans-serif;margin:32px;color:#111827}pre{white-space:pre-wrap;border:1px solid #d1d5db;border-radius:8px;padding:16px;background:#f8fafc}small{color:#64748b}</style></head><body><h1>'+name+'</h1><small>Generated with ToolVanta</small><pre></pre></body></html>');
+    w.document.querySelector('pre').textContent = text;
+    w.document.close();
+    w.focus();
+    w.print();
+  }
+  function safeJson(key, fallback){
+    try { return JSON.parse(localStorage.getItem(key) || JSON.stringify(fallback)); }
+    catch(e){ return fallback; }
+  }
+  function saveJson(key, value){
+    try { localStorage.setItem(key, JSON.stringify(value)); } catch(e){}
+  }
+  function historyKey(id){ return 'toolvanta_result_history_' + id; }
+  function ratingKey(id){ return 'toolvanta_tool_rating_' + id; }
+  function saveHistory(id, text){
+    text = String(text || '').trim();
+    if(!id || !text) return;
+    var list = safeJson(historyKey(id), []).filter(function(item){ return item.text !== text; });
+    list.unshift({ text:text.slice(0, 2000), time:new Date().toISOString() });
+    saveJson(historyKey(id), list.slice(0, 5));
+  }
+  function renderHistory(root, id){
+    var box = root.querySelector('.tool-history-list');
+    if(!box) return;
+    var list = safeJson(historyKey(id), []);
+    box.innerHTML = '';
+    if(!list.length){
+      box.innerHTML = '<p class="muted">Saved results from this browser will appear here.</p>';
+      return;
+    }
+    list.forEach(function(item){
+      var row = document.createElement('button');
+      row.type = 'button';
+      row.className = 'history-item';
+      row.textContent = item.text.length > 130 ? item.text.slice(0, 130) + '...' : item.text;
+      row.addEventListener('click', function(){ copyText(item.text, root.querySelector('.pro-tool-actions .copy-note')); });
+      box.appendChild(row);
+    });
+  }
+  function sampleFor(tool){
+    var cat = tool && tool.category;
+    if(cat === 'developer') return '{"name":"ToolVanta","type":"browser tool","private":true}';
+    if(cat === 'seo') return 'ToolVanta Free Online Tools';
+    if(cat === 'calculator' || cat === 'marketing') return '100';
+    if(cat === 'ai' || cat === 'social-media') return 'Launch a free browser-based tools website for creators and marketers';
+    return 'ToolVanta helps users complete quick online tasks with fast, private, browser-based tools.';
+  }
+  function enhance(root, tool){
+    if(!root || root.dataset.proActions === 'true') return;
+    var form = $('.tool-form', root);
+    if(!form) return;
+    root.dataset.proActions = 'true';
+    var note = document.createElement('span');
+    note.className = 'copy-note';
+    var actions = document.createElement('div');
+    actions.className = 'pro-tool-actions';
+    actions.appendChild(button('Use example', function(){
+      var sample = sampleFor(tool);
+      $all('textarea,input', root).forEach(function(el, index){
+        if(el.type === 'button' || el.type === 'submit' || el.type === 'file' || el.type === 'color') return;
+        setValue(el, el.type === 'number' ? String(100 + index * 25) : sample);
+      });
+    }));
+    actions.appendChild(button('Clear', function(){
+      $all('textarea,input', root).forEach(function(el){
+        if(el.type === 'file' || el.type === 'color' || el.type === 'checkbox') return;
+        setValue(el, '');
+      });
+    }));
+    actions.appendChild(button('Copy result', function(){ copyText(outputText(root), note); }));
+    actions.appendChild(button('Save result', function(){
+      var id = root.getAttribute('data-tool-id') || 'tool';
+      saveHistory(id, outputText(root));
+      renderHistory(root, id);
+      note.textContent = 'Saved';
+      setTimeout(function(){ note.textContent = ''; }, 1600);
+    }));
+    actions.appendChild(button('Download result', function(){
+      var id = root.getAttribute('data-tool-id') || 'toolvanta-result';
+      downloadText(id + '-result.txt', outputText(root));
+    }));
+    actions.appendChild(button('Copy Markdown', function(){
+      copyText(markdownResult(tool, outputText(root)), note);
+    }));
+    actions.appendChild(button('Download JSON', function(){
+      var id = root.getAttribute('data-tool-id') || 'toolvanta-result';
+      downloadJson(id, tool, outputText(root));
+    }));
+    actions.appendChild(button('Print', function(){
+      printResult(tool, outputText(root));
+    }));
+    actions.appendChild(note);
+    form.appendChild(actions);
+    var privacy = document.createElement('div');
+    privacy.className = 'tool-privacy-row';
+    privacy.innerHTML = '<span>Runs in your browser</span><span>No login</span><span>No upload required</span><span>Copy or download output</span>';
+    form.appendChild(privacy);
+    var feedback = document.createElement('div');
+    feedback.className = 'tool-feedback';
+    var id = root.getAttribute('data-tool-id') || 'tool';
+    var savedRating = localStorage.getItem(ratingKey(id));
+    feedback.innerHTML = '<div><strong>Was this tool useful?</strong><span class="rating-state">'+(savedRating ? 'Thanks for the feedback.' : 'Your vote is saved only in this browser.')+'</span></div><div class="rating-actions"><button type="button" data-rate="up">Useful</button><button type="button" data-rate="down">Needs work</button><a href="mailto:support@toolvanta.space?subject=ToolVanta%20issue%20-%20'+encodeURIComponent(id)+'">Report issue</a></div>';
+    feedback.querySelectorAll('[data-rate]').forEach(function(btn){
+      btn.addEventListener('click', function(){
+        localStorage.setItem(ratingKey(id), btn.getAttribute('data-rate'));
+        feedback.querySelector('.rating-state').textContent = 'Thanks for the feedback.';
+        feedback.querySelectorAll('[data-rate]').forEach(function(b){ b.classList.toggle('active', b === btn); });
+      });
+      if(savedRating && btn.getAttribute('data-rate') === savedRating) btn.classList.add('active');
+    });
+    form.appendChild(feedback);
+    var history = document.createElement('details');
+    history.className = 'tool-history';
+    history.innerHTML = '<summary>Recent saved results</summary><div class="tool-history-list"></div>';
+    form.appendChild(history);
+    renderHistory(root, id);
+  }
+  ready(function(){
+    var root = document.getElementById('tool-root');
+    if(!root) return;
+    var id = root.getAttribute('data-tool-id');
+    var tool = (window.TOOLVANTA_TOOLS || []).filter(function(t){ return t.id === id; })[0] || {};
+    setTimeout(function(){ enhance(root, tool); }, 80);
+    setTimeout(function(){ enhance(root, tool); }, 500);
+  });
+})();
+
 /* ToolVanta universal quick actions */
 (function(){
   function ready(fn){ if(document.readyState !== 'loading') fn(); else document.addEventListener('DOMContentLoaded', fn); }

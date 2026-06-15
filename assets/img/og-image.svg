@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">ToolVanta social preview</title>
+  <desc id="desc">A professional social preview image for ToolVanta, a browser-based online tools website.</desc>
+  <rect width="1200" height="630" fill="#f7f8fb"/>
+  <rect x="72" y="64" width="1056" height="502" rx="32" fill="#ffffff" stroke="#d6e3e0"/>
+  <rect x="112" y="104" width="118" height="118" rx="26" fill="#0f766e"/>
+  <text x="171" y="179" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="800" fill="#ffffff">TV</text>
+  <text x="266" y="148" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="800" fill="#102a43">ToolVanta</text>
+  <text x="268" y="205" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" fill="#0f766e">150 free online browser tools</text>
+  <text x="112" y="298" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#102a43">AI, SEO, text, developer, marketing, image,</text>
+  <text x="112" y="342" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" fill="#102a43">calculator, social media, and productivity tools.</text>
+  <g font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700">
+    <rect x="112" y="415" width="208" height="54" rx="16" fill="#ecfdf5" stroke="#99f6e4"/>
+    <text x="216" y="450" text-anchor="middle" fill="#0f766e">No login</text>
+    <rect x="342" y="415" width="244" height="54" rx="16" fill="#fff7ed" stroke="#fed7aa"/>
+    <text x="464" y="450" text-anchor="middle" fill="#9a3412">Browser-only</text>
+    <rect x="608" y="415" width="236" height="54" rx="16" fill="#eff6ff" stroke="#bfdbfe"/>
+    <text x="726" y="450" text-anchor="middle" fill="#1d4ed8">GitHub Pages</text>
+    <rect x="866" y="415" width="222" height="54" rx="16" fill="#fdf2f8" stroke="#fbcfe8"/>
+    <text x="977" y="450" text-anchor="middle" fill="#be185d">SEO-ready</text>
+  </g>
+  <text x="112" y="526" font-family="Arial, Helvetica, sans-serif" font-size="24" fill="#62748a">toolvanta.space</text>
+</svg>
