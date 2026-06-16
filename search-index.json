@@ -188,6 +188,14 @@
                       "keywords":  "Word Counter vs Character Counter | ToolVanta, Compare word counting and character counting tools for SEO drafts, essays, ads, social posts, and publishing workflows."
                   },
                   {
+                      "title":  "Cookie Policy",
+                      "url":  "cookies/",
+                      "category":  "legal",
+                      "type":  "legal",
+                      "description":  "Read the ToolVanta Cookie Policy to learn about necessary cookies, analytics cookies, advertising cookies, Google AdSense, and cookie management options.",
+                      "keywords":  "Cookie Policy | ToolVanta, Read the ToolVanta Cookie Policy to learn about necessary cookies, analytics cookies, advertising cookies, Google AdSense, and cookie management options."
+                  },
+                  {
                       "title":  "ToolVanta Learn Center",
                       "url":  "learn/",
                       "category":  "learn",
@@ -218,6 +226,14 @@
                       "type":  "learn",
                       "description":  "Understand keyword density, why it is not a ranking shortcut, and how to use repetition checks without keyword stuffing.",
                       "keywords":  "What Is Keyword Density? | ToolVanta, Understand keyword density, why it is not a ranking shortcut, and how to use repetition checks without keyword stuffing."
+                  },
+                  {
+                      "title":  "Privacy Policy",
+                      "url":  "privacy/",
+                      "category":  "legal",
+                      "type":  "legal",
+                      "description":  "Read the ToolVanta Privacy Policy to understand analytics, cookies, Google AdSense advertising cookies, browser-based data processing, user rights, and contact options.",
+                      "keywords":  "Privacy Policy | ToolVanta, Read the ToolVanta Privacy Policy to understand analytics, cookies, Google AdSense advertising cookies, browser-based data processing, user rights, and contact options."
                   },
                   {
                       "title":  "ToolVanta Resources - Tool Workflows and Guides",
@@ -354,6 +370,14 @@
                       "type":  "resource",
                       "description":  "A practical student guide to using word counters, character counters, readability tools, and text cleanup tools for essays, reports, and assignments.",
                       "keywords":  "Word Counter for Students: Essays, Reports, and Assignments | ToolVanta, A practical student guide to using word counters, character counters, readability tools, and text cleanup tools for essays, reports, and assignments."
+                  },
+                  {
+                      "title":  "Terms of Service",
+                      "url":  "terms/",
+                      "category":  "legal",
+                      "type":  "legal",
+                      "description":  "Read the ToolVanta Terms of Service covering website usage, disclaimers, limitation of liability, intellectual property, and contact information.",
+                      "keywords":  "Terms of Service | ToolVanta, Read the ToolVanta Terms of Service covering website usage, disclaimers, limitation of liability, intellectual property, and contact information."
                   },
                   {
                       "title":  "All Tools - 150 Free Online Tools",
@@ -1650,30 +1674,6 @@
                       "type":  "page",
                       "description":  "Contact ToolVanta for feedback, corrections, advertising questions, and partnership inquiries.",
                       "keywords":  "Contact - ToolVanta, Contact ToolVanta for feedback, corrections, advertising questions, and partnership inquiries."
-                  },
-                  {
-                      "title":  "Privacy Policy - ToolVanta",
-                      "url":  "privacy-policy.html",
-                      "category":  "site",
-                      "type":  "page",
-                      "description":  "Read the ToolVanta Privacy Policy for information about browser-based processing, advertising, cookies, and contact details.",
-                      "keywords":  "Privacy Policy - ToolVanta, Read the ToolVanta Privacy Policy for information about browser-based processing, advertising, cookies, and contact details."
-                  },
-                  {
-                      "title":  "Terms of Service - ToolVanta",
-                      "url":  "terms-of-service.html",
-                      "category":  "site",
-                      "type":  "page",
-                      "description":  "Read the ToolVanta Terms of Service for using the website and browser-based tools.",
-                      "keywords":  "Terms of Service - ToolVanta, Read the ToolVanta Terms of Service for using the website and browser-based tools."
-                  },
-                  {
-                      "title":  "Cookie Policy - ToolVanta",
-                      "url":  "cookie-policy.html",
-                      "category":  "site",
-                      "type":  "page",
-                      "description":  "Read the ToolVanta Cookie Policy for information about cookies, advertising, analytics, and browser controls.",
-                      "keywords":  "Cookie Policy - ToolVanta, Read the ToolVanta Cookie Policy for information about cookies, advertising, analytics, and browser controls."
                   },
                   {
                       "title":  "Editorial Standards - ToolVanta",

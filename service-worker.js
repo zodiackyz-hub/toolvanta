@@ -8,6 +8,9 @@ const CORE_ASSETS = [
   './categories.html',
   './about.html',
   './contact.html',
+  './cookies/',
+  './terms/',
+  './privacy/',
   './privacy-policy.html',
   './terms-of-service.html',
   './cookie-policy.html',
@@ -125,6 +128,7 @@ self.addEventListener('fetch', event => {
     })
   );
 });
+
 
 
 
