@@ -1,4 +1,4 @@
-const CACHE_NAME = 'toolvanta-static-v8';
+﻿const CACHE_NAME = 'toolvanta-static-v13';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -11,12 +11,20 @@ const CORE_ASSETS = [
   './privacy-policy.html',
   './terms-of-service.html',
   './cookie-policy.html',
+  './editorial-standards.html',
+  './content-update-policy.html',
+  './authors/index.html',
+  './authors/toolvanta-editorial-team/',
+  './authors/technical-review/',
   './resources/index.html',
   './resources/best-free-seo-tools/',
   './resources/best-text-tools-for-writers/',
   './resources/best-developer-tools-for-json-and-encoding/',
+  './resources/json-formatter-vs-json-validator/',
   './resources/best-ai-prompt-tools/',
+  './resources/how-to-write-better-ai-prompts/',
   './resources/free-online-calculators/',
+  './resources/word-counter-for-students/',
   './use-cases/index.html',
   './use-cases/bloggers/',
   './use-cases/developers/',
@@ -31,12 +39,28 @@ const CORE_ASSETS = [
   './compare/serp-snippet-preview-vs-meta-tag-analyzer/',
   './compare/ai-prompt-generator-vs-ai-blog-outline-generator/',
   './changelog.html',
+  './learn/index.html',
+  './learn/what-is-an-ai-prompt/',
+  './learn/what-is-keyword-density/',
+  './learn/what-is-json-formatting/',
+  './resources/ai-prompt-generator-guide/',
+  './resources/ai-email-writer-guide/',
+  './resources/ai-blog-outline-generator-guide/',
+  './resources/meta-tag-analyzer-guide/',
+  './resources/keyword-density-checker-guide/',
+  './resources/json-formatter-guide/',
+  './resources/password-generator-guide/',
+  './resources/image-resizer-guide/',
+  './compare/meta-tag-analyzer-vs-title-tag-checker/',
+  './compare/keyword-density-checker-vs-word-frequency-counter/',
+  './compare/password-generator-vs-uuid-generator/',
+  './compare/image-resizer-vs-image-compressor/',
   './search-index.json',
   './manifest.json',
-  './assets/css/styles.css?v=8',
-  './assets/js/main.js?v=8',
-  './assets/js/data.js?v=8',
-  './assets/js/tool.js?v=8',
+  './assets/css/styles.css?v=13',
+  './assets/js/main.js?v=13',
+  './assets/js/data.js?v=13',
+  './assets/js/tool.js?v=13',
   './assets/img/favicon.svg',
   './tools/word-counter/',
   './tools/json-formatter/',
@@ -101,3 +125,9 @@ self.addEventListener('fetch', event => {
     })
   );
 });
+
+
+
+
+
+

@@ -924,6 +924,82 @@ html[data-theme="dark"] .favorite-btn.saved {
   border-radius: 8px;
   background: #f8fafc;
 }
+.pros-cons-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 18px 0;
+}
+.pros-cons-grid > section {
+  border: 1px solid rgba(13, 148, 136, .16);
+  border-radius: 8px;
+  padding: 16px;
+  background: #fff;
+}
+.pros-cons-grid h2 {
+  margin-top: 0;
+}
+.pros-cons-grid ul {
+  margin-bottom: 0;
+}
+.eeat-panel,
+.author-card,
+.policy-note {
+  border: 1px solid rgba(13, 148, 136, .16);
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: var(--shadow-soft);
+}
+.eeat-panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 16px;
+  margin: 18px 0;
+}
+.eeat-panel span,
+.author-card span {
+  display: block;
+  color: var(--muted);
+  font-size: .88rem;
+}
+.eeat-panel strong,
+.author-card strong {
+  color: var(--text);
+}
+.author-card {
+  display: grid;
+  gap: 10px;
+  padding: 18px;
+  margin-top: 20px;
+}
+.author-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+.author-meta-grid div,
+.policy-note {
+  padding: 14px;
+}
+.trust-list {
+  display: grid;
+  gap: 10px;
+  padding-left: 20px;
+}
+.contact-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  padding: 14px 16px;
+  border: 1px solid rgba(13, 148, 136, .16);
+  border-radius: 8px;
+  background: #f0fdfa;
+}
 html[data-theme="dark"] .resource-card,
 html[data-theme="dark"] .pro-tool-actions,
 html[data-theme="dark"] .tool-privacy-row span,
@@ -933,7 +1009,11 @@ html[data-theme="dark"] .rating-actions button,
 html[data-theme="dark"] .rating-actions a,
 html[data-theme="dark"] .history-item,
 html[data-theme="dark"] .compare-table,
-html[data-theme="dark"] .comparison-callout {
+html[data-theme="dark"] .comparison-callout,
+html[data-theme="dark"] .pros-cons-grid > section,
+html[data-theme="dark"] .eeat-panel,
+html[data-theme="dark"] .author-card,
+html[data-theme="dark"] .policy-note {
   background: #111c31;
 }
 html[data-theme="dark"] .compare-table th,
@@ -941,9 +1021,14 @@ html[data-theme="dark"] .status-code {
   background: #0f766e;
   color: #fff;
 }
+html[data-theme="dark"] .contact-strip {
+  background: #0f172a;
+}
 @media (max-width: 900px) {
   .resource-grid,
-  .resource-layout {
+  .resource-layout,
+  .pros-cons-grid,
+  .author-meta-grid {
     grid-template-columns: 1fr;
   }
 }

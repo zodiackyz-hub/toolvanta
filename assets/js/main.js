@@ -329,7 +329,11 @@
       { name:'SEO Toolkit', category:'Use Case', path:pathToRoot() + 'resources/best-free-seo-tools/', keywords:'seo workflow' },
       { name:'Developer Toolkit', category:'Use Case', path:pathToRoot() + 'use-cases/developers/', keywords:'json encoding developer' }
     ];
-    var dataItems = tools().map(function(t){ return { name:t.name, category:categoryName(t.category), path:pathToRoot() + t.path, keywords:(t.keywords || []).join(' ') }; });
+    function keywordText(value){
+      if(Array.isArray(value)) return value.join(' ');
+      return String(value || '');
+    }
+    var dataItems = tools().map(function(t){ return { name:t.name, category:categoryName(t.category), path:pathToRoot() + t.path, keywords:keywordText(t.keywords) }; });
     return (dataItems.length ? dataItems : domCards).concat(staticItems);
   }
   function pathToRoot(){
