@@ -1,15 +1,15 @@
 ﻿{
-    "generatedAt":  "2026-06-16",
+    "generatedAt":  "2026-06-18",
     "site":  "ToolVanta",
     "count":  211,
     "items":  [
                   {
-                      "title":  "ToolVanta - 150 Free Online Browser Tools",
+                      "title":  "ToolVanta - Free AI Tools Directory, SEO Tools and Browser Utilities",
                       "url":  "",
                       "category":  "page",
                       "type":  "page",
-                      "description":  "ToolVanta offers 150 free online tools for AI, SEO, text, developers, marketing, social media, calculators, images, and productivity. Static, fast, and private.",
-                      "keywords":  "ToolVanta - 150 Free Online Browser Tools, ToolVanta offers 150 free online tools for AI, SEO, text, developers, marketing, social media, calculators, images, and productivity. Static, fast, and private."
+                      "description":  "ToolVanta is a free AI tools directory with AI writing tools, AI productivity tools, AI business tools, SEO tools, developer utilities, calculators and browser-based workflows.",
+                      "keywords":  "ToolVanta - Free AI Tools Directory, SEO Tools and Browser Utilities, ToolVanta is a free AI tools directory with AI writing tools, AI productivity tools, AI business tools, SEO tools, developer utilities, calculators and browser-based workflows."
                   },
                   {
                       "title":  "ToolVanta Authors and Reviewers",
@@ -36,15 +36,15 @@
                       "keywords":  "ToolVanta Editorial Team, The ToolVanta Editorial Team creates and maintains practical guides for browser-based tools, SEO workflows, developer utilities, AI prompts, and productivity resources."
                   },
                   {
-                      "title":  "AI Tools - Free Online Tools",
+                      "title":  "Free AI Tools Directory - AI Writing, Productivity, Business and Coding Tools | ToolVanta",
                       "url":  "categories/ai/",
                       "category":  "category",
                       "type":  "category",
-                      "description":  "Prompt builders, content helpers, and AI-ready templates that run without sending data to a server. Browse free browser-based ai tools with SEO content, FAQs, examples, and related utilities.",
-                      "keywords":  "AI Tools - Free Online Tools | ToolVanta, Prompt builders, content helpers, and AI-ready templates that run without sending data to a server. Browse free browser-based ai tools with SEO content, FAQs, examples, and related utilities."
+                      "description":  "Browse ToolVanta free AI tools for prompts, AI writing, AI productivity, AI business workflows, coding helpers and practical ChatGPT alternatives.",
+                      "keywords":  "Free AI Tools Directory - AI Writing, Productivity, Business and Coding Tools | ToolVanta, Browse ToolVanta free AI tools for prompts, AI writing, AI productivity, AI business workflows, coding helpers and practical ChatGPT alternatives."
                   },
                   {
-                      "title":  "Calculator Tools - Free Online Tools",
+                      "title":  "Calculator Tools - Free Online Tools | ToolVanta",
                       "url":  "categories/calculator/",
                       "category":  "category",
                       "type":  "category",
@@ -52,7 +52,7 @@
                       "keywords":  "Calculator Tools - Free Online Tools | ToolVanta, Everyday calculators for finance, dates, health, pricing, units, time, and planning. Browse free browser-based calculator tools with SEO content, FAQs, examples, and related utilities."
                   },
                   {
-                      "title":  "Developer Tools - Free Online Tools",
+                      "title":  "Developer Tools - Free Online Tools | ToolVanta",
                       "url":  "categories/developer/",
                       "category":  "category",
                       "type":  "category",
@@ -60,7 +60,7 @@
                       "keywords":  "Developer Tools - Free Online Tools | ToolVanta, Format, validate, encode, decode, convert, and inspect common web development data directly in the browser. Browse free browser-based developer tools with SEO content, FAQs, examples, and related utilities."
                   },
                   {
-                      "title":  "Image Tools - Free Online Tools",
+                      "title":  "Image Tools - Free Online Tools | ToolVanta",
                       "url":  "categories/image/",
                       "category":  "category",
                       "type":  "category",
@@ -68,7 +68,7 @@
                       "keywords":  "Image Tools - Free Online Tools | ToolVanta, Resize, compress, convert, inspect, generate, and prepare lightweight visual assets in the browser. Browse free browser-based image tools with SEO content, FAQs, examples, and related utilities."
                   },
                   {
-                      "title":  "Marketing Tools - Free Online Tools",
+                      "title":  "Marketing Tools - Free Online Tools | ToolVanta",
                       "url":  "categories/marketing/",
                       "category":  "category",
                       "type":  "category",
@@ -76,7 +76,7 @@
                       "keywords":  "Marketing Tools - Free Online Tools | ToolVanta, Campaign calculators, naming helpers, copy generators, UTM builders, and planning tools for growth work. Browse free browser-based marketing tools with SEO content, FAQs, examples, and related utilities."
                   },
                   {
-                      "title":  "Productivity Tools - Free Online Tools",
+                      "title":  "Productivity Tools - Free Online Tools | ToolVanta",
                       "url":  "categories/productivity/",
                       "category":  "category",
                       "type":  "category",
@@ -84,7 +84,7 @@
                       "keywords":  "Productivity Tools - Free Online Tools | ToolVanta, Planning, prioritization, meeting, habit, and workflow utilities for focused work. Browse free browser-based productivity tools with SEO content, FAQs, examples, and related utilities."
                   },
                   {
-                      "title":  "SEO Tools - Free Online Tools",
+                      "title":  "SEO Tools - Free Online Tools | ToolVanta",
                       "url":  "categories/seo/",
                       "category":  "category",
                       "type":  "category",
@@ -92,7 +92,7 @@
                       "keywords":  "SEO Tools - Free Online Tools | ToolVanta, On-page SEO analyzers, snippet previews, schema helpers, keyword utilities, and search optimization tools. Browse free browser-based seo tools with SEO content, FAQs, examples, and related utilities."
                   },
                   {
-                      "title":  "Social Media Tools - Free Online Tools",
+                      "title":  "Social Media Tools - Free Online Tools | ToolVanta",
                       "url":  "categories/social-media/",
                       "category":  "category",
                       "type":  "category",
@@ -100,7 +100,7 @@
                       "keywords":  "Social Media Tools - Free Online Tools | ToolVanta, Caption, hashtag, bio, profile, post, and content planning tools for creators and brands. Browse free browser-based social media tools with SEO content, FAQs, examples, and related utilities."
                   },
                   {
-                      "title":  "Text Tools - Free Online Tools",
+                      "title":  "Text Tools - Free Online Tools | ToolVanta",
                       "url":  "categories/text/",
                       "category":  "category",
                       "type":  "category",
@@ -108,7 +108,7 @@
                       "keywords":  "Text Tools - Free Online Tools | ToolVanta, Clean, count, rewrite, compare, sort, and prepare text for publishing, development, and daily work. Browse free browser-based text tools with SEO content, FAQs, examples, and related utilities."
                   },
                   {
-                      "title":  "Tool Comparisons",
+                      "title":  "Tool Comparisons | ToolVanta",
                       "url":  "compare/",
                       "category":  "compare",
                       "type":  "compare",
@@ -116,7 +116,7 @@
                       "keywords":  "Tool Comparisons | ToolVanta, Compare popular ToolVanta browser tools side by side and choose the right utility for SEO, text, AI, developer, image, and marketing workflows."
                   },
                   {
-                      "title":  "AI Prompt Generator vs AI Blog Outline Generator",
+                      "title":  "AI Prompt Generator vs AI Blog Outline Generator | ToolVanta",
                       "url":  "compare/ai-prompt-generator-vs-ai-blog-outline-generator/",
                       "category":  "compare",
                       "type":  "compare",
@@ -124,7 +124,7 @@
                       "keywords":  "AI Prompt Generator vs AI Blog Outline Generator | ToolVanta, Compare general AI prompt building with blog outline generation for content strategy and drafting workflows."
                   },
                   {
-                      "title":  "Base64 Encoder vs URL Encoder",
+                      "title":  "Base64 Encoder vs URL Encoder | ToolVanta",
                       "url":  "compare/base64-encoder-vs-url-encoder/",
                       "category":  "compare",
                       "type":  "compare",
@@ -132,7 +132,7 @@
                       "keywords":  "Base64 Encoder vs URL Encoder | ToolVanta, Compare Base64 encoding and URL encoding for web development, API testing, links, and safe data transfer."
                   },
                   {
-                      "title":  "Image Resizer vs Image Compressor",
+                      "title":  "Image Resizer vs Image Compressor | ToolVanta",
                       "url":  "compare/image-resizer-vs-image-compressor/",
                       "category":  "compare",
                       "type":  "compare",
@@ -140,7 +140,7 @@
                       "keywords":  "Image Resizer vs Image Compressor | ToolVanta, Compare resizing and compressing images for page speed, layout stability, social previews, and lightweight publishing."
                   },
                   {
-                      "title":  "JSON Formatter vs JSON Minifier",
+                      "title":  "JSON Formatter vs JSON Minifier | ToolVanta",
                       "url":  "compare/json-formatter-vs-json-minifier/",
                       "category":  "compare",
                       "type":  "compare",
@@ -148,7 +148,7 @@
                       "keywords":  "JSON Formatter vs JSON Minifier | ToolVanta, Compare JSON formatting and JSON minifying so developers can choose the right browser tool before debugging or shipping data."
                   },
                   {
-                      "title":  "Keyword Density Checker vs Word Frequency Counter",
+                      "title":  "Keyword Density Checker vs Word Frequency Counter | ToolVanta",
                       "url":  "compare/keyword-density-checker-vs-word-frequency-counter/",
                       "category":  "compare",
                       "type":  "compare",
@@ -156,7 +156,7 @@
                       "keywords":  "Keyword Density Checker vs Word Frequency Counter | ToolVanta, Compare keyword density and word frequency checks for SEO writing, editing, and repetition cleanup."
                   },
                   {
-                      "title":  "Meta Tag Analyzer vs Title Tag Checker",
+                      "title":  "Meta Tag Analyzer vs Title Tag Checker | ToolVanta",
                       "url":  "compare/meta-tag-analyzer-vs-title-tag-checker/",
                       "category":  "compare",
                       "type":  "compare",
@@ -164,7 +164,7 @@
                       "keywords":  "Meta Tag Analyzer vs Title Tag Checker | ToolVanta, Compare a full metadata audit with a focused title tag check for practical on-page SEO workflows."
                   },
                   {
-                      "title":  "Password Generator vs UUID Generator",
+                      "title":  "Password Generator vs UUID Generator | ToolVanta",
                       "url":  "compare/password-generator-vs-uuid-generator/",
                       "category":  "compare",
                       "type":  "compare",
@@ -172,7 +172,7 @@
                       "keywords":  "Password Generator vs UUID Generator | ToolVanta, Compare random passwords and UUIDs so you do not use identifiers where secrets are required."
                   },
                   {
-                      "title":  "SERP Snippet Preview vs Meta Tag Analyzer",
+                      "title":  "SERP Snippet Preview vs Meta Tag Analyzer | ToolVanta",
                       "url":  "compare/serp-snippet-preview-vs-meta-tag-analyzer/",
                       "category":  "compare",
                       "type":  "compare",
@@ -180,7 +180,7 @@
                       "keywords":  "SERP Snippet Preview vs Meta Tag Analyzer | ToolVanta, Compare search snippet previewing and meta tag analysis for stronger on-page SEO workflows."
                   },
                   {
-                      "title":  "Word Counter vs Character Counter",
+                      "title":  "Word Counter vs Character Counter | ToolVanta",
                       "url":  "compare/word-counter-vs-character-counter/",
                       "category":  "compare",
                       "type":  "compare",
@@ -188,7 +188,7 @@
                       "keywords":  "Word Counter vs Character Counter | ToolVanta, Compare word counting and character counting tools for SEO drafts, essays, ads, social posts, and publishing workflows."
                   },
                   {
-                      "title":  "Cookie Policy",
+                      "title":  "Cookie Policy | ToolVanta",
                       "url":  "cookies/",
                       "category":  "legal",
                       "type":  "legal",
@@ -196,7 +196,7 @@
                       "keywords":  "Cookie Policy | ToolVanta, Read the ToolVanta Cookie Policy to learn about necessary cookies, analytics cookies, advertising cookies, Google AdSense, and cookie management options."
                   },
                   {
-                      "title":  "ToolVanta Learn Center",
+                      "title":  "ToolVanta Learn Center | ToolVanta",
                       "url":  "learn/",
                       "category":  "learn",
                       "type":  "learn",
@@ -204,7 +204,7 @@
                       "keywords":  "ToolVanta Learn Center | ToolVanta, Plain-English explainers for AI, SEO, developer, marketing, image, and productivity workflows."
                   },
                   {
-                      "title":  "What Is an AI Prompt?",
+                      "title":  "What Is an AI Prompt? | ToolVanta",
                       "url":  "learn/what-is-an-ai-prompt/",
                       "category":  "learn",
                       "type":  "learn",
@@ -212,7 +212,7 @@
                       "keywords":  "What Is an AI Prompt? | ToolVanta, A plain-English guide to AI prompts, context, constraints, examples, and review steps for better AI-assisted work."
                   },
                   {
-                      "title":  "What Is JSON Formatting?",
+                      "title":  "What Is JSON Formatting? | ToolVanta",
                       "url":  "learn/what-is-json-formatting/",
                       "category":  "learn",
                       "type":  "learn",
@@ -220,7 +220,7 @@
                       "keywords":  "What Is JSON Formatting? | ToolVanta, Learn what JSON formatting does, why indentation matters, and how formatted JSON helps debugging and API review."
                   },
                   {
-                      "title":  "What Is Keyword Density?",
+                      "title":  "What Is Keyword Density? | ToolVanta",
                       "url":  "learn/what-is-keyword-density/",
                       "category":  "learn",
                       "type":  "learn",
@@ -228,7 +228,7 @@
                       "keywords":  "What Is Keyword Density? | ToolVanta, Understand keyword density, why it is not a ranking shortcut, and how to use repetition checks without keyword stuffing."
                   },
                   {
-                      "title":  "Privacy Policy",
+                      "title":  "Privacy Policy | ToolVanta",
                       "url":  "privacy/",
                       "category":  "legal",
                       "type":  "legal",
@@ -236,15 +236,15 @@
                       "keywords":  "Privacy Policy | ToolVanta, Read the ToolVanta Privacy Policy to understand analytics, cookies, Google AdSense advertising cookies, browser-based data processing, user rights, and contact options."
                   },
                   {
-                      "title":  "ToolVanta Resources - Tool Workflows and Guides",
+                      "title":  "ToolVanta Resources - Best AI Tools, SEO Guides and Browser Workflows",
                       "url":  "resources/",
                       "category":  "resource",
                       "type":  "resource",
-                      "description":  "Explore ToolVanta resource guides for SEO, writing, developer, AI prompt, marketing, image, and calculator workflows.",
-                      "keywords":  "ToolVanta Resources - Tool Workflows and Guides, Explore ToolVanta resource guides for SEO, writing, developer, AI prompt, marketing, image, and calculator workflows."
+                      "description":  "Read ToolVanta guides for best AI tools, free AI tools, AI writing tools, SEO workflows, developer utilities, image tools and productivity resources.",
+                      "keywords":  "ToolVanta Resources - Best AI Tools, SEO Guides and Browser Workflows, Read ToolVanta guides for best AI tools, free AI tools, AI writing tools, SEO workflows, developer utilities, image tools and productivity resources."
                   },
                   {
-                      "title":  "AI Blog Outline Generator Guide",
+                      "title":  "AI Blog Outline Generator Guide | ToolVanta",
                       "url":  "resources/ai-blog-outline-generator-guide/",
                       "category":  "resource",
                       "type":  "resource",
@@ -252,7 +252,7 @@
                       "keywords":  "AI Blog Outline Generator Guide | ToolVanta, Build stronger blog outlines with search intent, headings, examples, and internal links before writing the full article."
                   },
                   {
-                      "title":  "AI Email Writer Guide",
+                      "title":  "AI Email Writer Guide | ToolVanta",
                       "url":  "resources/ai-email-writer-guide/",
                       "category":  "resource",
                       "type":  "resource",
@@ -260,7 +260,7 @@
                       "keywords":  "AI Email Writer Guide | ToolVanta, A practical guide to drafting better outreach, support, sales, and follow-up emails with browser-based AI writing helpers."
                   },
                   {
-                      "title":  "AI Prompt Generator Guide",
+                      "title":  "AI Prompt Generator Guide | ToolVanta",
                       "url":  "resources/ai-prompt-generator-guide/",
                       "category":  "resource",
                       "type":  "resource",
@@ -268,23 +268,23 @@
                       "keywords":  "AI Prompt Generator Guide | ToolVanta, Learn how to use an AI prompt generator to create clearer prompts for writing, coding, SEO, research, and planning workflows."
                   },
                   {
-                      "title":  "Best AI Prompt Tools - Prompt Workflows for Content and Marketing",
+                      "title":  "Best Free AI Tools for Prompts, Writing, Business and Productivity | ToolVanta",
                       "url":  "resources/best-ai-prompt-tools/",
                       "category":  "resource",
                       "type":  "resource",
-                      "description":  "Plan better AI workflows with free prompt tools for emails, outlines, ad copy, product descriptions, FAQs, resumes, interviews, and video scripts.",
-                      "keywords":  "Best AI Prompt Tools - Prompt Workflows for Content and Marketing | ToolVanta, Plan better AI workflows with free prompt tools for emails, outlines, ad copy, product descriptions, FAQs, resumes, interviews, and video scripts."
+                      "description":  "Explore ToolVanta as a free AI tools directory for AI writing tools, prompt builders, AI productivity tools, AI business tools and practical ChatGPT alternative workflows.",
+                      "keywords":  "Best Free AI Tools for Prompts, Writing, Business and Productivity | ToolVanta, Explore ToolVanta as a free AI tools directory for AI writing tools, prompt builders, AI productivity tools, AI business tools and practical ChatGPT alternative workflows."
                   },
                   {
-                      "title":  "Best Developer Tools for JSON and Encoding",
+                      "title":  "Best Free Developer Tools for JSON, Encoding and AI Coding Workflows | ToolVanta",
                       "url":  "resources/best-developer-tools-for-json-and-encoding/",
                       "category":  "resource",
                       "type":  "resource",
-                      "description":  "A lightweight developer workflow for JSON formatting, minifying, Base64, URL encoding, HTML entities, regex testing, JWT decoding, and CSV conversion.",
-                      "keywords":  "Best Developer Tools for JSON and Encoding | ToolVanta, A lightweight developer workflow for JSON formatting, minifying, Base64, URL encoding, HTML entities, regex testing, JWT decoding, and CSV conversion."
+                      "description":  "Use free browser developer tools for JSON, Base64, URL encoding, CSV conversion and AI coding tool workflows without login or backend processing.",
+                      "keywords":  "Best Free Developer Tools for JSON, Encoding and AI Coding Workflows | ToolVanta, Use free browser developer tools for JSON, Base64, URL encoding, CSV conversion and AI coding tool workflows without login or backend processing."
                   },
                   {
-                      "title":  "Best Free SEO Tools - Browser SEO Workflow",
+                      "title":  "Best Free SEO Tools - Browser SEO Workflow | ToolVanta",
                       "url":  "resources/best-free-seo-tools/",
                       "category":  "resource",
                       "type":  "resource",
@@ -292,23 +292,23 @@
                       "keywords":  "Best Free SEO Tools - Browser SEO Workflow | ToolVanta, Build a practical SEO workflow with free browser tools for snippets, meta tags, keyword density, schema, headings, canonicals, and internal links."
                   },
                   {
-                      "title":  "Best Text Tools for Writers - Clean, Count, and Format Copy",
+                      "title":  "Best Free Writing Tools for AI Writing, Editing and Text Cleanup | ToolVanta",
                       "url":  "resources/best-text-tools-for-writers/",
                       "category":  "resource",
                       "type":  "resource",
-                      "description":  "Use free text tools for writing workflows: word counts, character limits, title case, sentence case, duplicate cleanup, readability, and slugs.",
-                      "keywords":  "Best Text Tools for Writers - Clean, Count, and Format Copy | ToolVanta, Use free text tools for writing workflows: word counts, character limits, title case, sentence case, duplicate cleanup, readability, and slugs."
+                      "description":  "A practical writing toolkit for AI writing tools, word counting, readability, title cleanup, slug creation and publishing-ready text workflows.",
+                      "keywords":  "Best Free Writing Tools for AI Writing, Editing and Text Cleanup | ToolVanta, A practical writing toolkit for AI writing tools, word counting, readability, title cleanup, slug creation and publishing-ready text workflows."
                   },
                   {
-                      "title":  "Free Online Calculators - Finance, Time, Date, and Utility Tools",
+                      "title":  "Free Online Calculators for Business, Productivity and Planning | ToolVanta",
                       "url":  "resources/free-online-calculators/",
                       "category":  "resource",
                       "type":  "resource",
-                      "description":  "Use browser-based calculators for age, BMI, percentages, discounts, tips, loans, interest, VAT, ROI, margins, dates, time, fuel, and GPA.",
-                      "keywords":  "Free Online Calculators - Finance, Time, Date, and Utility Tools | ToolVanta, Use browser-based calculators for age, BMI, percentages, discounts, tips, loans, interest, VAT, ROI, margins, dates, time, fuel, and GPA."
+                      "description":  "Use free online calculators for business, productivity, pricing, interest, ROI, margins, dates, time and everyday planning workflows.",
+                      "keywords":  "Free Online Calculators for Business, Productivity and Planning | ToolVanta, Use free online calculators for business, productivity, pricing, interest, ROI, margins, dates, time and everyday planning workflows."
                   },
                   {
-                      "title":  "How to Write Better AI Prompts",
+                      "title":  "How to Write Better AI Prompts | ToolVanta",
                       "url":  "resources/how-to-write-better-ai-prompts/",
                       "category":  "resource",
                       "type":  "resource",
@@ -316,7 +316,7 @@
                       "keywords":  "How to Write Better AI Prompts | ToolVanta, Learn how to write better AI prompts with clear goals, context, constraints, examples, and review steps using free ToolVanta prompt tools."
                   },
                   {
-                      "title":  "Image Resizer Guide",
+                      "title":  "Image Resizer Guide | ToolVanta",
                       "url":  "resources/image-resizer-guide/",
                       "category":  "resource",
                       "type":  "resource",
@@ -324,7 +324,7 @@
                       "keywords":  "Image Resizer Guide | ToolVanta, Resize images for websites, social previews, email, and documentation while keeping page speed and layout stability in mind."
                   },
                   {
-                      "title":  "JSON Formatter Guide",
+                      "title":  "JSON Formatter Guide | ToolVanta",
                       "url":  "resources/json-formatter-guide/",
                       "category":  "resource",
                       "type":  "resource",
@@ -332,7 +332,7 @@
                       "keywords":  "JSON Formatter Guide | ToolVanta, Format, inspect, debug, and share JSON more safely with a fast browser-based JSON formatter workflow."
                   },
                   {
-                      "title":  "JSON Formatter vs JSON Validator: Which Tool Do You Need?",
+                      "title":  "JSON Formatter vs JSON Validator: Which Tool Do You Need? | ToolVanta",
                       "url":  "resources/json-formatter-vs-json-validator/",
                       "category":  "resource",
                       "type":  "resource",
@@ -340,7 +340,7 @@
                       "keywords":  "JSON Formatter vs JSON Validator: Which Tool Do You Need? | ToolVanta, Learn the difference between a JSON formatter and a JSON validator, when to use each one, and how ToolVanta developer tools fit into a safer debugging workflow."
                   },
                   {
-                      "title":  "Keyword Density Checker Guide",
+                      "title":  "Keyword Density Checker Guide | ToolVanta",
                       "url":  "resources/keyword-density-checker-guide/",
                       "category":  "resource",
                       "type":  "resource",
@@ -348,7 +348,7 @@
                       "keywords":  "Keyword Density Checker Guide | ToolVanta, Understand keyword density, repetition, topical focus, and safer on-page writing habits without keyword stuffing."
                   },
                   {
-                      "title":  "Meta Tag Analyzer Guide",
+                      "title":  "Meta Tag Analyzer Guide | ToolVanta",
                       "url":  "resources/meta-tag-analyzer-guide/",
                       "category":  "resource",
                       "type":  "resource",
@@ -356,7 +356,7 @@
                       "keywords":  "Meta Tag Analyzer Guide | ToolVanta, Learn how to review title tags, meta descriptions, Open Graph tags, canonical URLs, and social preview metadata before publishing."
                   },
                   {
-                      "title":  "Password Generator Guide",
+                      "title":  "Password Generator Guide | ToolVanta",
                       "url":  "resources/password-generator-guide/",
                       "category":  "resource",
                       "type":  "resource",
@@ -364,7 +364,7 @@
                       "keywords":  "Password Generator Guide | ToolVanta, Create stronger passwords with length, randomness, character variety, and safer browser-only password generation habits."
                   },
                   {
-                      "title":  "Word Counter for Students: Essays, Reports, and Assignments",
+                      "title":  "Word Counter for Students: Essays, Reports, and Assignments | ToolVanta",
                       "url":  "resources/word-counter-for-students/",
                       "category":  "resource",
                       "type":  "resource",
@@ -372,7 +372,7 @@
                       "keywords":  "Word Counter for Students: Essays, Reports, and Assignments | ToolVanta, A practical student guide to using word counters, character counters, readability tools, and text cleanup tools for essays, reports, and assignments."
                   },
                   {
-                      "title":  "Terms of Service",
+                      "title":  "Terms of Service | ToolVanta",
                       "url":  "terms/",
                       "category":  "legal",
                       "type":  "legal",
@@ -380,15 +380,15 @@
                       "keywords":  "Terms of Service | ToolVanta, Read the ToolVanta Terms of Service covering website usage, disclaimers, limitation of liability, intellectual property, and contact information."
                   },
                   {
-                      "title":  "All Tools - 150 Free Online Tools",
+                      "title":  "All Free Online Tools - AI Tools, SEO Tools and Browser Utilities | ToolVanta",
                       "url":  "tools/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Browse all 150 free online ToolVanta utilities across AI, SEO, text, developer, marketing, social, calculator, image, and productivity categories.",
-                      "keywords":  "All Tools - 150 Free Online Tools | ToolVanta, Browse all 150 free online ToolVanta utilities across AI, SEO, text, developer, marketing, social, calculator, image, and productivity categories."
+                      "description":  "Browse 150 free online tools including AI tools, AI writing tools, AI business tools, SEO tools, developer tools, image tools, calculators and productivity utilities.",
+                      "keywords":  "All Free Online Tools - AI Tools, SEO Tools and Browser Utilities | ToolVanta, Browse 150 free online tools including AI tools, AI writing tools, AI business tools, SEO tools, developer tools, image tools, calculators and productivity utilities."
                   },
                   {
-                      "title":  "Age Calculator - Free Online Calculator Tool",
+                      "title":  "Age Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/age-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -396,127 +396,127 @@
                       "keywords":  "Age Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Age Calculator to calculate exact age in years, months, and days from a birth date. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "AI Ad Copy Generator - Free Online AI Tool",
+                      "title":  "Ai Ad Copy Generator - Free AI Business Tool | ToolVanta",
                       "url":  "tools/ai-ad-copy-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI Ad Copy Generator to generate ad copy variations with hooks, benefits, and calls to action. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI Ad Copy Generator - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI Ad Copy Generator to generate ad copy variations with hooks, benefits, and calls to action. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai Ad Copy Generator as a free AI tool. AI business tool for ad copy, campaign ideas and marketing productivity. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Ad Copy Generator - Free AI Business Tool | ToolVanta, Use ToolVanta\u0027s Ai Ad Copy Generator as a free AI tool. AI business tool for ad copy, campaign ideas and marketing productivity. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "AI Blog Outline Generator - Free Online AI Tool",
+                      "title":  "Ai Blog Outline Generator - Free AI Writing Tool | ToolVanta",
                       "url":  "tools/ai-blog-outline-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI Blog Outline Generator to generate search-friendly blog outlines with sections, angles, and reader intent. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI Blog Outline Generator - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI Blog Outline Generator to generate search-friendly blog outlines with sections, angles, and reader intent. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai Blog Outline Generator as a free AI tool. AI writing tool for blog outlines, SEO planning and structured content briefs. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Blog Outline Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s Ai Blog Outline Generator as a free AI tool. AI writing tool for blog outlines, SEO planning and structured content briefs. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "AI Content Brief Generator - Free Online AI Tool",
+                      "title":  "Ai Content Brief Generator - Free AI Writing Tool | ToolVanta",
                       "url":  "tools/ai-content-brief-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI Content Brief Generator to create content briefs with audience, intent, outline, keywords, and deliverables. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI Content Brief Generator - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI Content Brief Generator to create content briefs with audience, intent, outline, keywords, and deliverables. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai Content Brief Generator as a free AI tool. AI writing and SEO tool for content briefs, outlines and search intent planning. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Content Brief Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s Ai Content Brief Generator as a free AI tool. AI writing and SEO tool for content briefs, outlines and search intent planning. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "AI Email Writer - Free Online AI Tool",
+                      "title":  "Ai Email Writer - Free AI Writing Tool | ToolVanta",
                       "url":  "tools/ai-email-writer/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI Email Writer to create professional email drafts from a goal, audience, tone, and key details. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI Email Writer - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI Email Writer to create professional email drafts from a goal, audience, tone, and key details. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai Email Writer as a free AI tool. AI writing tool for email drafts, outreach, support replies and productivity workflows. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Email Writer - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s Ai Email Writer as a free AI tool. AI writing tool for email drafts, outreach, support replies and productivity workflows. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "AI FAQ Generator - Free Online AI Tool",
+                      "title":  "Ai Faq Generator - Free AI Writing Tool | ToolVanta",
                       "url":  "tools/ai-faq-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI FAQ Generator to generate useful FAQ questions and answers from a topic or product description. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI FAQ Generator - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI FAQ Generator to generate useful FAQ questions and answers from a topic or product description. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai Faq Generator as a free AI tool. AI writing tool for FAQ sections, support content and SEO landing page answers. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Faq Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s Ai Faq Generator as a free AI tool. AI writing tool for FAQ sections, support content and SEO landing page answers. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "AI Idea Generator - Free Online AI Tool",
+                      "title":  "Ai İdea Generator - Free AI Tool for Writing and Productivity | ToolVanta",
                       "url":  "tools/ai-idea-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI Idea Generator to generate practical ideas for content, campaigns, products, and workflows. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI Idea Generator - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI Idea Generator to generate practical ideas for content, campaigns, products, and workflows. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai İdea Generator as a free AI tool. AI productivity tool for brainstorming ideas, topics and project angles. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai İdea Generator - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s Ai İdea Generator as a free AI tool. AI productivity tool for brainstorming ideas, topics and project angles. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "AI Interview Question Generator - Free Online AI Tool",
+                      "title":  "Ai İnterview Question Generator - Free AI Business Tool | ToolVanta",
                       "url":  "tools/ai-interview-question-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI Interview Question Generator to generate interview questions for roles, skills, projects, and hiring stages. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI Interview Question Generator - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI Interview Question Generator to generate interview questions for roles, skills, projects, and hiring stages. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai İnterview Question Generator as a free AI tool. AI business and productivity tool for interview prep, hiring workflows and question lists. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai İnterview Question Generator - Free AI Business Tool | ToolVanta, Use ToolVanta\u0027s Ai İnterview Question Generator as a free AI tool. AI business and productivity tool for interview prep, hiring workflows and question lists. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "AI LinkedIn Post Generator - Free Online AI Tool",
+                      "title":  "Ai Linkedin Post Generator - Free AI Business Tool | ToolVanta",
                       "url":  "tools/ai-linkedin-post-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI LinkedIn Post Generator to create professional LinkedIn post drafts for founders, teams, and creators. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI LinkedIn Post Generator - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI LinkedIn Post Generator to create professional LinkedIn post drafts for founders, teams, and creators. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai Linkedin Post Generator as a free AI tool. AI business writing tool for LinkedIn posts, thought leadership and professional updates. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Linkedin Post Generator - Free AI Business Tool | ToolVanta, Use ToolVanta\u0027s Ai Linkedin Post Generator as a free AI tool. AI business writing tool for LinkedIn posts, thought leadership and professional updates. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "AI Meeting Summary Template - Free Online AI Tool",
+                      "title":  "Ai Meeting Summary Template - Free AI Tool for Writing and Productivity | ToolVanta",
                       "url":  "tools/ai-meeting-summary-template/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI Meeting Summary Template to create structured meeting summary templates with decisions, notes, and next steps. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI Meeting Summary Template - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI Meeting Summary Template to create structured meeting summary templates with decisions, notes, and next steps. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai Meeting Summary Template as a free AI tool. AI productivity tool for meeting summaries, notes and action item workflows. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Meeting Summary Template - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s Ai Meeting Summary Template as a free AI tool. AI productivity tool for meeting summaries, notes and action item workflows. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "AI Meta Description Generator - Free Online AI Tool",
+                      "title":  "Ai Meta Description Generator - Free AI Tool for Writing and Productivity | ToolVanta",
                       "url":  "tools/ai-meta-description-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI Meta Description Generator to draft concise meta descriptions for pages, products, articles, and tools. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI Meta Description Generator - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI Meta Description Generator to draft concise meta descriptions for pages, products, articles, and tools. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai Meta Description Generator as a free AI tool. AI SEO writing tool for meta descriptions, snippets and search-friendly page summaries. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Meta Description Generator - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s Ai Meta Description Generator as a free AI tool. AI SEO writing tool for meta descriptions, snippets and search-friendly page summaries. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "AI Product Description Generator - Free Online AI Tool",
+                      "title":  "Ai Product Description Generator - Free AI Business Tool | ToolVanta",
                       "url":  "tools/ai-product-description-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI Product Description Generator to create product description drafts with features, benefits, and use cases. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI Product Description Generator - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI Product Description Generator to create product description drafts with features, benefits, and use cases. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai Product Description Generator as a free AI tool. AI business tool for ecommerce product descriptions, feature copy and sales pages. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Product Description Generator - Free AI Business Tool | ToolVanta, Use ToolVanta\u0027s Ai Product Description Generator as a free AI tool. AI business tool for ecommerce product descriptions, feature copy and sales pages. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "AI Prompt Generator - Free Online AI Tool",
+                      "title":  "Ai Prompt Generator - Free AI Tool for Writing and Productivity | ToolVanta",
                       "url":  "tools/ai-prompt-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI Prompt Generator to build structured prompts for writing, coding, marketing, research, and planning tasks. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI Prompt Generator - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI Prompt Generator to build structured prompts for writing, coding, marketing, research, and planning tasks. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai Prompt Generator as a free AI tool. Free AI prompt builder for AI productivity tools, ChatGPT alternative workflows and structured prompts. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Prompt Generator - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s Ai Prompt Generator as a free AI tool. Free AI prompt builder for AI productivity tools, ChatGPT alternative workflows and structured prompts. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "AI Resume Bullet Generator - Free Online AI Tool",
+                      "title":  "Ai Resume Bullet Generator - Free AI Writing Tool | ToolVanta",
                       "url":  "tools/ai-resume-bullet-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI Resume Bullet Generator to draft resume bullet points from role, action, metric, and outcome details. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI Resume Bullet Generator - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI Resume Bullet Generator to draft resume bullet points from role, action, metric, and outcome details. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai Resume Bullet Generator as a free AI tool. AI writing tool for resume bullets, career achievements and professional summaries. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Resume Bullet Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s Ai Resume Bullet Generator as a free AI tool. AI writing tool for resume bullets, career achievements and professional summaries. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "AI Tweet Generator - Free Online AI Tool",
+                      "title":  "Ai Tweet Generator - Free AI Tool for Writing and Productivity | ToolVanta",
                       "url":  "tools/ai-tweet-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI Tweet Generator to generate short social post drafts with hooks, angles, and optional hashtags. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI Tweet Generator - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI Tweet Generator to generate short social post drafts with hooks, angles, and optional hashtags. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai Tweet Generator as a free AI tool. AI social writing tool for short posts, hooks and creator workflows. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Tweet Generator - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s Ai Tweet Generator as a free AI tool. AI social writing tool for short posts, hooks and creator workflows. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "AI YouTube Script Outline Generator - Free Online AI Tool",
+                      "title":  "Ai Youtube Script Outline Generator - Free AI Writing Tool | ToolVanta",
                       "url":  "tools/ai-youtube-script-outline-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s free AI YouTube Script Outline Generator to create video script outlines with hooks, chapters, talking points, and calls to action. Fast, private, mobile-friendly, and built for GitHub Pages.",
-                      "keywords":  "AI YouTube Script Outline Generator - Free Online AI Tool | ToolVanta, Use ToolVanta\u0027s free AI YouTube Script Outline Generator to create video script outlines with hooks, chapters, talking points, and calls to action. Fast, private, mobile-friendly, and built for GitHub Pages."
+                      "description":  "Use ToolVanta\u0027s Ai Youtube Script Outline Generator as a free AI tool. AI writing tool for YouTube outlines, creator scripts and video planning. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Youtube Script Outline Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s Ai Youtube Script Outline Generator as a free AI tool. AI writing tool for YouTube outlines, creator scripts and video planning. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Alphabetical List Sorter - Free Online Text Tool",
+                      "title":  "Alphabetical List Sorter - Free Online Text Tool | ToolVanta",
                       "url":  "tools/alphabetical-list-sorter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -524,7 +524,7 @@
                       "keywords":  "Alphabetical List Sorter - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Alphabetical List Sorter to sort lines alphabetically and optionally remove blank lines. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Alt Text Prompt Generator - Free Online SEO Tool",
+                      "title":  "Alt Text Prompt Generator - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/alt-text-prompt-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -532,7 +532,7 @@
                       "keywords":  "Alt Text Prompt Generator - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Alt Text Prompt Generator to create clear alt text prompts for images, products, charts, and screenshots. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Base64 Decoder - Free Online Developer Tool",
+                      "title":  "Base64 Decoder - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/base64-decoder/",
                       "category":  "tool",
                       "type":  "tool",
@@ -540,7 +540,7 @@
                       "keywords":  "Base64 Decoder - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free Base64 Decoder to decode Base64 text back to Unicode. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Base64 Encoder - Free Online Developer Tool",
+                      "title":  "Base64 Encoder - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/base64-encoder/",
                       "category":  "tool",
                       "type":  "tool",
@@ -548,7 +548,7 @@
                       "keywords":  "Base64 Encoder - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free Base64 Encoder to encode Unicode text into Base64 safely. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Blog Title Generator - Free Online Marketing Tool",
+                      "title":  "Blog Title Generator - Free Online Marketing Tool | ToolVanta",
                       "url":  "tools/blog-title-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -556,7 +556,7 @@
                       "keywords":  "Blog Title Generator - Free Online Marketing Tool | ToolVanta, Use ToolVanta\u0027s free Blog Title Generator to generate SEO-friendly blog title ideas from a topic. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "BMI Calculator - Free Online Calculator Tool",
+                      "title":  "BMI Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/bmi-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -564,7 +564,7 @@
                       "keywords":  "BMI Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free BMI Calculator to calculate body mass index from height and weight with category guidance. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Break Even Calculator - Free Online Calculator Tool",
+                      "title":  "Break Even Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/break-even-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -572,7 +572,7 @@
                       "keywords":  "Break Even Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Break Even Calculator to estimate break-even units from fixed costs, price, and variable cost. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Business Name Generator - Free Online Marketing Tool",
+                      "title":  "Business Name Generator - Free Online Marketing Tool | ToolVanta",
                       "url":  "tools/business-name-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -580,7 +580,7 @@
                       "keywords":  "Business Name Generator - Free Online Marketing Tool | ToolVanta, Use ToolVanta\u0027s free Business Name Generator to create business name ideas for startups, agencies, shops, and services. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "CAC Calculator - Free Online Marketing Tool",
+                      "title":  "CAC Calculator - Free Online Marketing Tool | ToolVanta",
                       "url":  "tools/cac-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -588,7 +588,7 @@
                       "keywords":  "CAC Calculator - Free Online Marketing Tool | ToolVanta, Use ToolVanta\u0027s free CAC Calculator to calculate customer acquisition cost from sales and marketing spend. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Calorie Calculator - Free Online Calculator Tool",
+                      "title":  "Calorie Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/calorie-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -596,7 +596,7 @@
                       "keywords":  "Calorie Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Calorie Calculator to estimate daily calorie needs from age, sex, height, weight, and activity. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Canonical URL Checker - Free Online SEO Tool",
+                      "title":  "Canonical URL Checker - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/canonical-url-checker/",
                       "category":  "tool",
                       "type":  "tool",
@@ -604,7 +604,7 @@
                       "keywords":  "Canonical URL Checker - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Canonical URL Checker to normalize canonical URL candidates and flag common formatting issues. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Character Counter - Free Online Text Tool",
+                      "title":  "Character Counter - Free Online Text Tool | ToolVanta",
                       "url":  "tools/character-counter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -612,7 +612,7 @@
                       "keywords":  "Character Counter - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Character Counter to measure characters with and without spaces for posts, titles, and forms. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Color Converter - Free Online Developer Tool",
+                      "title":  "Color Converter - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/color-converter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -620,7 +620,7 @@
                       "keywords":  "Color Converter - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free Color Converter to convert colors between HEX, RGB, and HSL formats. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Color Palette Generator - Free Online Image Tool",
+                      "title":  "Color Palette Generator - Free Online Image Tool | ToolVanta",
                       "url":  "tools/color-palette-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -628,7 +628,7 @@
                       "keywords":  "Color Palette Generator - Free Online Image Tool | ToolVanta, Use ToolVanta\u0027s free Color Palette Generator to create harmonious color palettes from a base color or random seed. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Color Picker - Free Online Image Tool",
+                      "title":  "Color Picker - Free Online Image Tool | ToolVanta",
                       "url":  "tools/color-picker/",
                       "category":  "tool",
                       "type":  "tool",
@@ -636,7 +636,7 @@
                       "keywords":  "Color Picker - Free Online Image Tool | ToolVanta, Use ToolVanta\u0027s free Color Picker to pick a color and convert it between HEX, RGB, and HSL. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Compound Interest Calculator - Free Online Calculator Tool",
+                      "title":  "Compound Interest Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/compound-interest-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -644,7 +644,7 @@
                       "keywords":  "Compound Interest Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Compound Interest Calculator to estimate compound growth with common compounding frequencies. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Conversion Rate Calculator - Free Online Marketing Tool",
+                      "title":  "Conversion Rate Calculator - Free Online Marketing Tool | ToolVanta",
                       "url":  "tools/conversion-rate-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -652,7 +652,7 @@
                       "keywords":  "Conversion Rate Calculator - Free Online Marketing Tool | ToolVanta, Use ToolVanta\u0027s free Conversion Rate Calculator to calculate conversion rate from visits and conversions. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "CPA Calculator - Free Online Marketing Tool",
+                      "title":  "CPA Calculator - Free Online Marketing Tool | ToolVanta",
                       "url":  "tools/cpa-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -660,7 +660,7 @@
                       "keywords":  "CPA Calculator - Free Online Marketing Tool | ToolVanta, Use ToolVanta\u0027s free CPA Calculator to calculate cost per acquisition from spend and conversions. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "CPC Calculator - Free Online Marketing Tool",
+                      "title":  "CPC Calculator - Free Online Marketing Tool | ToolVanta",
                       "url":  "tools/cpc-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -668,7 +668,7 @@
                       "keywords":  "CPC Calculator - Free Online Marketing Tool | ToolVanta, Use ToolVanta\u0027s free CPC Calculator to calculate cost per click from ad spend and clicks. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "CPM Calculator - Free Online Marketing Tool",
+                      "title":  "CPM Calculator - Free Online Marketing Tool | ToolVanta",
                       "url":  "tools/cpm-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -676,7 +676,7 @@
                       "keywords":  "CPM Calculator - Free Online Marketing Tool | ToolVanta, Use ToolVanta\u0027s free CPM Calculator to calculate cost per thousand impressions from spend and impressions. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "CSS Formatter - Free Online Developer Tool",
+                      "title":  "CSS Formatter - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/css-formatter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -684,7 +684,7 @@
                       "keywords":  "CSS Formatter - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free CSS Formatter to pretty-print compact CSS into readable blocks. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "CSS Minifier - Free Online Developer Tool",
+                      "title":  "CSS Minifier - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/css-minifier/",
                       "category":  "tool",
                       "type":  "tool",
@@ -692,7 +692,7 @@
                       "keywords":  "CSS Minifier - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free CSS Minifier to remove comments and extra whitespace from CSS. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "CSV Line Cleaner - Free Online Text Tool",
+                      "title":  "CSV Line Cleaner - Free Online Text Tool | ToolVanta",
                       "url":  "tools/csv-line-cleaner/",
                       "category":  "tool",
                       "type":  "tool",
@@ -700,7 +700,7 @@
                       "keywords":  "CSV Line Cleaner - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free CSV Line Cleaner to clean simple CSV lines by trimming cells and removing empty rows. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "CSV to JSON Converter - Free Online Developer Tool",
+                      "title":  "CSV to JSON Converter - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/csv-to-json-converter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -708,7 +708,7 @@
                       "keywords":  "CSV to JSON Converter - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free CSV to JSON Converter to convert simple CSV data into formatted JSON arrays. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "CTR Calculator - Free Online Marketing Tool",
+                      "title":  "CTR Calculator - Free Online Marketing Tool | ToolVanta",
                       "url":  "tools/ctr-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -716,7 +716,7 @@
                       "keywords":  "CTR Calculator - Free Online Marketing Tool | ToolVanta, Use ToolVanta\u0027s free CTR Calculator to calculate click-through rate from impressions and clicks. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Daily Planner Generator - Free Online Productivity Tool",
+                      "title":  "Daily Planner Generator - Free Online Productivity Tool | ToolVanta",
                       "url":  "tools/daily-planner-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -724,7 +724,7 @@
                       "keywords":  "Daily Planner Generator - Free Online Productivity Tool | ToolVanta, Use ToolVanta\u0027s free Daily Planner Generator to generate a daily plan with priorities, schedule blocks, and review prompts. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Date Duration Calculator - Free Online Calculator Tool",
+                      "title":  "Date Duration Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/date-duration-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -732,7 +732,7 @@
                       "keywords":  "Date Duration Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Date Duration Calculator to calculate the number of days, weeks, months, and years between two dates. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Discount Calculator - Free Online Calculator Tool",
+                      "title":  "Discount Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/discount-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -740,7 +740,7 @@
                       "keywords":  "Discount Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Discount Calculator to calculate sale price, discount amount, and optional tax from a listed price. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Duplicate Word Finder - Free Online Text Tool",
+                      "title":  "Duplicate Word Finder - Free Online Text Tool | ToolVanta",
                       "url":  "tools/duplicate-word-finder/",
                       "category":  "tool",
                       "type":  "tool",
@@ -748,7 +748,7 @@
                       "keywords":  "Duplicate Word Finder - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Duplicate Word Finder to detect repeated words and list duplicate terms in a text sample. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Email Subject Line Generator - Free Online Marketing Tool",
+                      "title":  "Email Subject Line Generator - Free Online Marketing Tool | ToolVanta",
                       "url":  "tools/email-subject-line-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -756,7 +756,7 @@
                       "keywords":  "Email Subject Line Generator - Free Online Marketing Tool | ToolVanta, Use ToolVanta\u0027s free Email Subject Line Generator to generate email subject line ideas for launches, newsletters, and promotions. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Emoji Counter - Free Online Social Media Tool",
+                      "title":  "Emoji Counter - Free Online Social Media Tool | ToolVanta",
                       "url":  "tools/emoji-counter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -764,7 +764,7 @@
                       "keywords":  "Emoji Counter - Free Online Social Media Tool | ToolVanta, Use ToolVanta\u0027s free Emoji Counter to count emoji characters and estimate emoji density in social copy. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Fuel Cost Calculator - Free Online Calculator Tool",
+                      "title":  "Fuel Cost Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/fuel-cost-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -772,7 +772,7 @@
                       "keywords":  "Fuel Cost Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Fuel Cost Calculator to estimate trip fuel cost from distance, efficiency, and fuel price. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "GPA Calculator - Free Online Calculator Tool",
+                      "title":  "GPA Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/gpa-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -780,7 +780,7 @@
                       "keywords":  "GPA Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free GPA Calculator to calculate weighted GPA from course grades and credits. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Gradient Generator - Free Online Image Tool",
+                      "title":  "Gradient Generator - Free Online Image Tool | ToolVanta",
                       "url":  "tools/gradient-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -788,7 +788,7 @@
                       "keywords":  "Gradient Generator - Free Online Image Tool | ToolVanta, Use ToolVanta\u0027s free Gradient Generator to generate CSS linear gradients from two or three selected colors. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Habit Tracker Template - Free Online Productivity Tool",
+                      "title":  "Habit Tracker Template - Free Online Productivity Tool | ToolVanta",
                       "url":  "tools/habit-tracker-template/",
                       "category":  "tool",
                       "type":  "tool",
@@ -796,7 +796,7 @@
                       "keywords":  "Habit Tracker Template - Free Online Productivity Tool | ToolVanta, Use ToolVanta\u0027s free Habit Tracker Template to create a simple weekly habit tracker template from selected habits. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Hash Generator - Free Online Developer Tool",
+                      "title":  "Hash Generator - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/hash-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -804,7 +804,7 @@
                       "keywords":  "Hash Generator - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free Hash Generator to generate SHA-1 and SHA-256 hashes from text using the browser crypto API. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Hashtag Counter - Free Online Social Media Tool",
+                      "title":  "Hashtag Counter - Free Online Social Media Tool | ToolVanta",
                       "url":  "tools/hashtag-counter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -812,7 +812,7 @@
                       "keywords":  "Hashtag Counter - Free Online Social Media Tool | ToolVanta, Use ToolVanta\u0027s free Hashtag Counter to count hashtags, duplicates, and hashtag density in a post. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Hashtag Generator - Free Online Social Media Tool",
+                      "title":  "Hashtag Generator - Free Online Social Media Tool | ToolVanta",
                       "url":  "tools/hashtag-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -820,7 +820,7 @@
                       "keywords":  "Hashtag Generator - Free Online Social Media Tool | ToolVanta, Use ToolVanta\u0027s free Hashtag Generator to turn topics and keywords into clean social media hashtags. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Heading Structure Checker - Free Online SEO Tool",
+                      "title":  "Heading Structure Checker - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/heading-structure-checker/",
                       "category":  "tool",
                       "type":  "tool",
@@ -828,7 +828,7 @@
                       "keywords":  "Heading Structure Checker - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Heading Structure Checker to inspect heading text order and identify missing H1 or skipped heading levels. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Hreflang Tag Generator - Free Online SEO Tool",
+                      "title":  "Hreflang Tag Generator - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/hreflang-tag-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -836,7 +836,7 @@
                       "keywords":  "Hreflang Tag Generator - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Hreflang Tag Generator to generate hreflang link tags for multilingual or regional page variants. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "HTML Entity Decoder - Free Online Developer Tool",
+                      "title":  "HTML Entity Decoder - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/html-entity-decoder/",
                       "category":  "tool",
                       "type":  "tool",
@@ -844,7 +844,7 @@
                       "keywords":  "HTML Entity Decoder - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free HTML Entity Decoder to decode HTML entities back into normal text. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "HTML Entity Encoder - Free Online Developer Tool",
+                      "title":  "HTML Entity Encoder - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/html-entity-encoder/",
                       "category":  "tool",
                       "type":  "tool",
@@ -852,7 +852,7 @@
                       "keywords":  "HTML Entity Encoder - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free HTML Entity Encoder to escape HTML-sensitive characters into safe entities. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "HTML Formatter - Free Online Developer Tool",
+                      "title":  "HTML Formatter - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/html-formatter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -860,7 +860,7 @@
                       "keywords":  "HTML Formatter - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free HTML Formatter to pretty-print HTML markup with basic indentation. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Image Color Extractor - Free Online Image Tool",
+                      "title":  "Image Color Extractor - Free Online Image Tool | ToolVanta",
                       "url":  "tools/image-color-extractor/",
                       "category":  "tool",
                       "type":  "tool",
@@ -868,7 +868,7 @@
                       "keywords":  "Image Color Extractor - Free Online Image Tool | ToolVanta, Use ToolVanta\u0027s free Image Color Extractor to extract dominant colors from an uploaded image in the browser. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Image Compressor - Free Online Image Tool",
+                      "title":  "Image Compressor - Free Online Image Tool | ToolVanta",
                       "url":  "tools/image-compressor/",
                       "category":  "tool",
                       "type":  "tool",
@@ -876,7 +876,7 @@
                       "keywords":  "Image Compressor - Free Online Image Tool | ToolVanta, Use ToolVanta\u0027s free Image Compressor to compress uploaded images as JPEG or WebP-style canvas output with quality control. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Image Crop Ratio Calculator - Free Online Image Tool",
+                      "title":  "Image Crop Ratio Calculator - Free Online Image Tool | ToolVanta",
                       "url":  "tools/image-crop-ratio-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -884,7 +884,7 @@
                       "keywords":  "Image Crop Ratio Calculator - Free Online Image Tool | ToolVanta, Use ToolVanta\u0027s free Image Crop Ratio Calculator to calculate crop dimensions for common aspect ratios without uploading a file. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Image Resizer - Free Online Image Tool",
+                      "title":  "Image Resizer - Free Online Image Tool | ToolVanta",
                       "url":  "tools/image-resizer/",
                       "category":  "tool",
                       "type":  "tool",
@@ -892,7 +892,7 @@
                       "keywords":  "Image Resizer - Free Online Image Tool | ToolVanta, Use ToolVanta\u0027s free Image Resizer to resize uploaded images to custom pixel dimensions using browser canvas. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Image to Base64 - Free Online Image Tool",
+                      "title":  "Image to Base64 - Free Online Image Tool | ToolVanta",
                       "url":  "tools/image-to-base64/",
                       "category":  "tool",
                       "type":  "tool",
@@ -900,7 +900,7 @@
                       "keywords":  "Image to Base64 - Free Online Image Tool | ToolVanta, Use ToolVanta\u0027s free Image to Base64 to convert an uploaded image into a Base64 data URL. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Instagram Bio Generator - Free Online Social Media Tool",
+                      "title":  "Instagram Bio Generator - Free Online Social Media Tool | ToolVanta",
                       "url":  "tools/instagram-bio-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -908,7 +908,7 @@
                       "keywords":  "Instagram Bio Generator - Free Online Social Media Tool | ToolVanta, Use ToolVanta\u0027s free Instagram Bio Generator to generate concise Instagram bio ideas with niche, personality, and call to action. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Internal Link Suggestion Tool - Free Online SEO Tool",
+                      "title":  "Internal Link Suggestion Tool - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/internal-link-suggestion-tool/",
                       "category":  "tool",
                       "type":  "tool",
@@ -916,7 +916,7 @@
                       "keywords":  "Internal Link Suggestion Tool - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Internal Link Suggestion Tool to suggest internal link targets and anchor text from page topics and keywords. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "JavaScript Formatter - Free Online Developer Tool",
+                      "title":  "JavaScript Formatter - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/javascript-formatter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -924,7 +924,7 @@
                       "keywords":  "JavaScript Formatter - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free JavaScript Formatter to add readable spacing and line breaks to compact JavaScript snippets. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "JavaScript Minifier - Free Online Developer Tool",
+                      "title":  "JavaScript Minifier - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/javascript-minifier/",
                       "category":  "tool",
                       "type":  "tool",
@@ -932,7 +932,7 @@
                       "keywords":  "JavaScript Minifier - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free JavaScript Minifier to compress simple JavaScript by removing comments and nonessential whitespace. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "JSON Formatter - Free Online Developer Tool",
+                      "title":  "JSON Formatter - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/json-formatter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -940,7 +940,7 @@
                       "keywords":  "JSON Formatter - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free JSON Formatter to format and validate JSON with readable indentation. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "JSON Minifier - Free Online Developer Tool",
+                      "title":  "JSON Minifier - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/json-minifier/",
                       "category":  "tool",
                       "type":  "tool",
@@ -948,7 +948,7 @@
                       "keywords":  "JSON Minifier - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free JSON Minifier to minify valid JSON into compact one-line output. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "JSON to CSV Converter - Free Online Developer Tool",
+                      "title":  "JSON to CSV Converter - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/json-to-csv-converter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -956,7 +956,7 @@
                       "keywords":  "JSON to CSV Converter - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free JSON to CSV Converter to convert arrays of JSON objects into CSV text. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "JWT Decoder - Free Online Developer Tool",
+                      "title":  "JWT Decoder - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/jwt-decoder/",
                       "category":  "tool",
                       "type":  "tool",
@@ -964,7 +964,7 @@
                       "keywords":  "JWT Decoder - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free JWT Decoder to decode JWT header and payload JSON without verifying signatures. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Keyword Cluster Generator - Free Online SEO Tool",
+                      "title":  "Keyword Cluster Generator - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/keyword-cluster-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -972,7 +972,7 @@
                       "keywords":  "Keyword Cluster Generator - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Keyword Cluster Generator to group keyword ideas into topical clusters for content planning. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Keyword Density Checker - Free Online SEO Tool",
+                      "title":  "Keyword Density Checker - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/keyword-density-checker/",
                       "category":  "tool",
                       "type":  "tool",
@@ -980,7 +980,7 @@
                       "keywords":  "Keyword Density Checker - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Keyword Density Checker to calculate keyword frequency, density, and repeated phrase patterns in page copy. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Landing Page Headline Generator - Free Online Marketing Tool",
+                      "title":  "Landing Page Headline Generator - Free Online Marketing Tool | ToolVanta",
                       "url":  "tools/landing-page-headline-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -988,7 +988,7 @@
                       "keywords":  "Landing Page Headline Generator - Free Online Marketing Tool | ToolVanta, Use ToolVanta\u0027s free Landing Page Headline Generator to create landing page headline variations for offers, products, and services. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Length Converter - Free Online Calculator Tool",
+                      "title":  "Length Converter - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/length-converter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -996,7 +996,7 @@
                       "keywords":  "Length Converter - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Length Converter to convert meters, feet, inches, miles, kilometers, and more. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Line Counter - Free Online Text Tool",
+                      "title":  "Line Counter - Free Online Text Tool | ToolVanta",
                       "url":  "tools/line-counter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1004,7 +1004,7 @@
                       "keywords":  "Line Counter - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Line Counter to count total, non-empty, and empty lines in pasted content. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "LinkedIn Headline Generator - Free Online Social Media Tool",
+                      "title":  "LinkedIn Headline Generator - Free Online Social Media Tool | ToolVanta",
                       "url":  "tools/linkedin-headline-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1012,7 +1012,7 @@
                       "keywords":  "LinkedIn Headline Generator - Free Online Social Media Tool | ToolVanta, Use ToolVanta\u0027s free LinkedIn Headline Generator to generate professional LinkedIn headline ideas from role and value proposition. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Loan Calculator - Free Online Calculator Tool",
+                      "title":  "Loan Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/loan-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1020,7 +1020,7 @@
                       "keywords":  "Loan Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Loan Calculator to estimate monthly payment, total payment, and interest for a fixed-rate loan. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Lowercase Converter - Free Online Text Tool",
+                      "title":  "Lowercase Converter - Free Online Text Tool | ToolVanta",
                       "url":  "tools/lowercase-converter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1028,7 +1028,7 @@
                       "keywords":  "Lowercase Converter - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Lowercase Converter to turn text into lowercase for consistent formatting. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "LTV Calculator - Free Online Marketing Tool",
+                      "title":  "LTV Calculator - Free Online Marketing Tool | ToolVanta",
                       "url":  "tools/ltv-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1036,7 +1036,7 @@
                       "keywords":  "LTV Calculator - Free Online Marketing Tool | ToolVanta, Use ToolVanta\u0027s free LTV Calculator to estimate customer lifetime value from revenue, margin, and retention inputs. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Markdown to Plain Text - Free Online Text Tool",
+                      "title":  "Markdown to Plain Text - Free Online Text Tool | ToolVanta",
                       "url":  "tools/markdown-to-plain-text/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1044,7 +1044,7 @@
                       "keywords":  "Markdown to Plain Text - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Markdown to Plain Text to remove Markdown syntax and produce clean readable plain text. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Meeting Agenda Generator - Free Online Productivity Tool",
+                      "title":  "Meeting Agenda Generator - Free Online Productivity Tool | ToolVanta",
                       "url":  "tools/meeting-agenda-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1052,7 +1052,7 @@
                       "keywords":  "Meeting Agenda Generator - Free Online Productivity Tool | ToolVanta, Use ToolVanta\u0027s free Meeting Agenda Generator to create structured meeting agendas with topics, owners, times, and outcomes. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Meta Description Checker - Free Online SEO Tool",
+                      "title":  "Meta Description Checker - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/meta-description-checker/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1060,7 +1060,7 @@
                       "keywords":  "Meta Description Checker - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Meta Description Checker to evaluate meta description length, clarity, and call-to-action strength. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Meta Tag Analyzer - Free Online SEO Tool",
+                      "title":  "Meta Tag Analyzer - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/meta-tag-analyzer/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1068,7 +1068,7 @@
                       "keywords":  "Meta Tag Analyzer - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Meta Tag Analyzer to review title and description length, clarity, and search snippet readiness. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Open Graph Preview - Free Online SEO Tool",
+                      "title":  "Open Graph Preview - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/open-graph-preview/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1076,7 +1076,7 @@
                       "keywords":  "Open Graph Preview - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Open Graph Preview to preview Open Graph title, description, URL, and image text for social sharing. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Paragraph Counter - Free Online Text Tool",
+                      "title":  "Paragraph Counter - Free Online Text Tool | ToolVanta",
                       "url":  "tools/paragraph-counter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1084,7 +1084,7 @@
                       "keywords":  "Paragraph Counter - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Paragraph Counter to count paragraphs, words per paragraph, and paragraph density. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Password Generator - Free Online Developer Tool",
+                      "title":  "Password Generator - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/password-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1092,7 +1092,7 @@
                       "keywords":  "Password Generator - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free Password Generator to generate secure random passwords with custom length and character sets. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Percentage Calculator - Free Online Calculator Tool",
+                      "title":  "Percentage Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/percentage-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1100,7 +1100,7 @@
                       "keywords":  "Percentage Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Percentage Calculator to solve common percentage questions such as percent of, percent change, and ratio percent. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Placeholder Image Generator - Free Online Image Tool",
+                      "title":  "Placeholder Image Generator - Free Online Image Tool | ToolVanta",
                       "url":  "tools/placeholder-image-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1108,7 +1108,7 @@
                       "keywords":  "Placeholder Image Generator - Free Online Image Tool | ToolVanta, Use ToolVanta\u0027s free Placeholder Image Generator to create simple SVG placeholder images with custom size, color, and label. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Pomodoro Timer - Free Online Productivity Tool",
+                      "title":  "Pomodoro Timer - Free Online Productivity Tool | ToolVanta",
                       "url":  "tools/pomodoro-timer/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1116,7 +1116,7 @@
                       "keywords":  "Pomodoro Timer - Free Online Productivity Tool | ToolVanta, Use ToolVanta\u0027s free Pomodoro Timer to run a browser-based focus timer with work and break intervals. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Priority Matrix Maker - Free Online Productivity Tool",
+                      "title":  "Priority Matrix Maker - Free Online Productivity Tool | ToolVanta",
                       "url":  "tools/priority-matrix-maker/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1124,7 +1124,7 @@
                       "keywords":  "Priority Matrix Maker - Free Online Productivity Tool | ToolVanta, Use ToolVanta\u0027s free Priority Matrix Maker to sort tasks into urgent, important, delegate, and later quadrants. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Profit Margin Calculator - Free Online Calculator Tool",
+                      "title":  "Profit Margin Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/profit-margin-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1132,7 +1132,7 @@
                       "keywords":  "Profit Margin Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Profit Margin Calculator to calculate gross profit, margin percentage, and markup from cost and price. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "QR Code Generator - Free Online Image Tool",
+                      "title":  "QR Code Generator - Free Online Image Tool | ToolVanta",
                       "url":  "tools/qr-code-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1140,7 +1140,7 @@
                       "keywords":  "QR Code Generator - Free Online Image Tool | ToolVanta, Use ToolVanta\u0027s free QR Code Generator to generate downloadable QR codes as SVG directly in the browser. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Random Number Generator - Free Online Developer Tool",
+                      "title":  "Random Number Generator - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/random-number-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1148,7 +1148,7 @@
                       "keywords":  "Random Number Generator - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free Random Number Generator to create one or many random numbers within a chosen range. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Random Quote Generator - Free Online Productivity Tool",
+                      "title":  "Random Quote Generator - Free Online Productivity Tool | ToolVanta",
                       "url":  "tools/random-quote-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1156,7 +1156,7 @@
                       "keywords":  "Random Quote Generator - Free Online Productivity Tool | ToolVanta, Use ToolVanta\u0027s free Random Quote Generator to generate short motivational, creative, and work-friendly quotes. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Readability Score Checker - Free Online Text Tool",
+                      "title":  "Readability Score Checker - Free Online Text Tool | ToolVanta",
                       "url":  "tools/readability-score-checker/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1164,7 +1164,7 @@
                       "keywords":  "Readability Score Checker - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Readability Score Checker to estimate reading level, average sentence length, and reading ease. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Readability SEO Checker - Free Online SEO Tool",
+                      "title":  "Readability SEO Checker - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/readability-seo-checker/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1172,7 +1172,7 @@
                       "keywords":  "Readability SEO Checker - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Readability SEO Checker to estimate readability, sentence length, and scanability for SEO content. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Regex Tester - Free Online Developer Tool",
+                      "title":  "Regex Tester - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/regex-tester/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1180,7 +1180,7 @@
                       "keywords":  "Regex Tester - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free Regex Tester to test JavaScript regular expressions against sample text with match output. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Remove Duplicate Lines - Free Online Text Tool",
+                      "title":  "Remove Duplicate Lines - Free Online Text Tool | ToolVanta",
                       "url":  "tools/remove-duplicate-lines/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1188,7 +1188,7 @@
                       "keywords":  "Remove Duplicate Lines - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Remove Duplicate Lines to remove repeated lines and keep a clean unique list. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Remove Extra Spaces - Free Online Text Tool",
+                      "title":  "Remove Extra Spaces - Free Online Text Tool | ToolVanta",
                       "url":  "tools/remove-extra-spaces/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1196,7 +1196,7 @@
                       "keywords":  "Remove Extra Spaces - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Remove Extra Spaces to trim text and collapse repeated spaces while keeping line breaks tidy. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "ROAS Calculator - Free Online Marketing Tool",
+                      "title":  "ROAS Calculator - Free Online Marketing Tool | ToolVanta",
                       "url":  "tools/roas-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1204,7 +1204,7 @@
                       "keywords":  "ROAS Calculator - Free Online Marketing Tool | ToolVanta, Use ToolVanta\u0027s free ROAS Calculator to calculate return on ad spend from revenue and advertising cost. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Robots.txt Generator - Free Online SEO Tool",
+                      "title":  "Robots.txt Generator - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/robots-txt-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1212,7 +1212,7 @@
                       "keywords":  "Robots.txt Generator - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Robots.txt Generator to create simple robots.txt directives for static websites and public projects. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "ROI Calculator - Free Online Calculator Tool",
+                      "title":  "ROI Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/roi-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1220,7 +1220,7 @@
                       "keywords":  "ROI Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free ROI Calculator to calculate return on investment from cost and gain. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Salary Hourly Rate Calculator - Free Online Calculator Tool",
+                      "title":  "Salary Hourly Rate Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/salary-hourly-rate-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1228,7 +1228,7 @@
                       "keywords":  "Salary Hourly Rate Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Salary Hourly Rate Calculator to convert annual salary to hourly, weekly, and monthly equivalents. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Schema Markup Generator - Free Online SEO Tool",
+                      "title":  "Schema Markup Generator - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/schema-markup-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1236,7 +1236,7 @@
                       "keywords":  "Schema Markup Generator - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Schema Markup Generator to create basic JSON-LD schema for articles, FAQs, organizations, and tools. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Sentence Case Converter - Free Online Text Tool",
+                      "title":  "Sentence Case Converter - Free Online Text Tool | ToolVanta",
                       "url":  "tools/sentence-case-converter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1244,7 +1244,7 @@
                       "keywords":  "Sentence Case Converter - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Sentence Case Converter to format text into readable sentence case with capitalized sentence starts. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Sentence Counter - Free Online Text Tool",
+                      "title":  "Sentence Counter - Free Online Text Tool | ToolVanta",
                       "url":  "tools/sentence-counter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1252,7 +1252,7 @@
                       "keywords":  "Sentence Counter - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Sentence Counter to count sentences and estimate average sentence length. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "SEO Content Brief Generator - Free Online SEO Tool",
+                      "title":  "SEO Content Brief Generator - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/seo-content-brief-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1260,7 +1260,7 @@
                       "keywords":  "SEO Content Brief Generator - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free SEO Content Brief Generator to build an SEO content brief with intent, outline, keywords, and linking ideas. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "SERP Snippet Preview - Free Online SEO Tool",
+                      "title":  "SERP Snippet Preview - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/serp-snippet-preview/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1268,7 +1268,7 @@
                       "keywords":  "SERP Snippet Preview - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free SERP Snippet Preview to preview how a title, URL, and meta description may appear in Google search results. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Simple Interest Calculator - Free Online Calculator Tool",
+                      "title":  "Simple Interest Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/simple-interest-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1276,7 +1276,7 @@
                       "keywords":  "Simple Interest Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Simple Interest Calculator to calculate simple interest and final balance from principal, rate, and time. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Sitemap URL Builder - Free Online SEO Tool",
+                      "title":  "Sitemap URL Builder - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/sitemap-url-builder/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1284,7 +1284,7 @@
                       "keywords":  "Sitemap URL Builder - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Sitemap URL Builder to turn a list of page paths into a clean XML sitemap snippet. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Slug Generator - Free Online SEO Tool",
+                      "title":  "Slug Generator - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/slug-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1292,7 +1292,7 @@
                       "keywords":  "Slug Generator - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Slug Generator to generate clean SEO-friendly URL slugs from titles and keyword ideas. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Social Caption Generator - Free Online Social Media Tool",
+                      "title":  "Social Caption Generator - Free Online Social Media Tool | ToolVanta",
                       "url":  "tools/social-caption-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1300,7 +1300,7 @@
                       "keywords":  "Social Caption Generator - Free Online Social Media Tool | ToolVanta, Use ToolVanta\u0027s free Social Caption Generator to create social media captions from a topic, tone, and campaign goal. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Social Character Limit Checker - Free Online Social Media Tool",
+                      "title":  "Social Character Limit Checker - Free Online Social Media Tool | ToolVanta",
                       "url":  "tools/social-character-limit-checker/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1308,7 +1308,7 @@
                       "keywords":  "Social Character Limit Checker - Free Online Social Media Tool | ToolVanta, Use ToolVanta\u0027s free Social Character Limit Checker to check post length against common social platform character limits. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Social Media Calendar Generator - Free Online Social Media Tool",
+                      "title":  "Social Media Calendar Generator - Free Online Social Media Tool | ToolVanta",
                       "url":  "tools/social-media-calendar-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1316,7 +1316,7 @@
                       "keywords":  "Social Media Calendar Generator - Free Online Social Media Tool | ToolVanta, Use ToolVanta\u0027s free Social Media Calendar Generator to create a simple weekly social media content calendar from content pillars. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "SQL Formatter - Free Online Developer Tool",
+                      "title":  "SQL Formatter - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/sql-formatter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1324,7 +1324,7 @@
                       "keywords":  "SQL Formatter - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free SQL Formatter to format common SQL queries by line breaks and indentation. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "SVG Optimizer - Free Online Image Tool",
+                      "title":  "SVG Optimizer - Free Online Image Tool | ToolVanta",
                       "url":  "tools/svg-optimizer/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1332,7 +1332,7 @@
                       "keywords":  "SVG Optimizer - Free Online Image Tool | ToolVanta, Use ToolVanta\u0027s free SVG Optimizer to clean simple SVG markup by removing comments, extra spaces, and metadata. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Temperature Converter - Free Online Calculator Tool",
+                      "title":  "Temperature Converter - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/temperature-converter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1340,7 +1340,7 @@
                       "keywords":  "Temperature Converter - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Temperature Converter to convert Celsius, Fahrenheit, and Kelvin. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Text Cleaner - Free Online Text Tool",
+                      "title":  "Text Cleaner - Free Online Text Tool | ToolVanta",
                       "url":  "tools/text-cleaner/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1348,7 +1348,7 @@
                       "keywords":  "Text Cleaner - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Text Cleaner to clean copied text by trimming lines, removing control characters, and normalizing spacing. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Text Compare Tool - Free Online Text Tool",
+                      "title":  "Text Compare Tool - Free Online Text Tool | ToolVanta",
                       "url":  "tools/text-compare-tool/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1356,7 +1356,7 @@
                       "keywords":  "Text Compare Tool - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Text Compare Tool to compare two text blocks and highlight added, removed, and changed lines. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Text Joiner - Free Online Text Tool",
+                      "title":  "Text Joiner - Free Online Text Tool | ToolVanta",
                       "url":  "tools/text-joiner/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1364,7 +1364,7 @@
                       "keywords":  "Text Joiner - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Text Joiner to join lines or items with spaces, commas, pipes, or custom separators. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Text Reverser - Free Online Text Tool",
+                      "title":  "Text Reverser - Free Online Text Tool | ToolVanta",
                       "url":  "tools/text-reverser/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1372,7 +1372,7 @@
                       "keywords":  "Text Reverser - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Text Reverser to reverse characters, words, or line order in a block of text. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Text Splitter - Free Online Text Tool",
+                      "title":  "Text Splitter - Free Online Text Tool | ToolVanta",
                       "url":  "tools/text-splitter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1380,7 +1380,7 @@
                       "keywords":  "Text Splitter - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Text Splitter to split text by line, comma, sentence, or custom separator. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Text to Morse Code - Free Online Text Tool",
+                      "title":  "Text to Morse Code - Free Online Text Tool | ToolVanta",
                       "url":  "tools/text-to-morse-code/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1388,7 +1388,7 @@
                       "keywords":  "Text to Morse Code - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Text to Morse Code to convert letters and numbers into Morse code symbols. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Text to Slug Converter - Free Online Text Tool",
+                      "title":  "Text to Slug Converter - Free Online Text Tool | ToolVanta",
                       "url":  "tools/text-to-slug-converter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1396,7 +1396,7 @@
                       "keywords":  "Text to Slug Converter - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Text to Slug Converter to convert headings, titles, and labels into clean lowercase slugs. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "TikTok Hook Generator - Free Online Social Media Tool",
+                      "title":  "TikTok Hook Generator - Free Online Social Media Tool | ToolVanta",
                       "url":  "tools/tiktok-hook-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1404,7 +1404,7 @@
                       "keywords":  "TikTok Hook Generator - Free Online Social Media Tool | ToolVanta, Use ToolVanta\u0027s free TikTok Hook Generator to generate short video hooks for TikTok, Reels, Shorts, and social clips. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Time Duration Calculator - Free Online Calculator Tool",
+                      "title":  "Time Duration Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/time-duration-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1412,7 +1412,7 @@
                       "keywords":  "Time Duration Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Time Duration Calculator to calculate elapsed time between two clock times or timestamps. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Tip Calculator - Free Online Calculator Tool",
+                      "title":  "Tip Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/tip-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1420,7 +1420,7 @@
                       "keywords":  "Tip Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Tip Calculator to split a bill and calculate tip totals per person. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Title Case Converter - Free Online Text Tool",
+                      "title":  "Title Case Converter - Free Online Text Tool | ToolVanta",
                       "url":  "tools/title-case-converter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1428,7 +1428,7 @@
                       "keywords":  "Title Case Converter - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Title Case Converter to convert headlines and titles into polished title case. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Title Tag Checker - Free Online SEO Tool",
+                      "title":  "Title Tag Checker - Free Online SEO Tool | ToolVanta",
                       "url":  "tools/title-tag-checker/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1436,7 +1436,7 @@
                       "keywords":  "Title Tag Checker - Free Online SEO Tool | ToolVanta, Use ToolVanta\u0027s free Title Tag Checker to check title tag length, keyword placement, and readability before publishing. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "To-Do List Sorter - Free Online Productivity Tool",
+                      "title":  "To-Do List Sorter - Free Online Productivity Tool | ToolVanta",
                       "url":  "tools/to-do-list-sorter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1444,7 +1444,7 @@
                       "keywords":  "To-Do List Sorter - Free Online Productivity Tool | ToolVanta, Use ToolVanta\u0027s free To-Do List Sorter to sort pasted tasks by priority labels, due markers, and alphabetical order. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Unit Converter - Free Online Calculator Tool",
+                      "title":  "Unit Converter - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/unit-converter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1452,7 +1452,7 @@
                       "keywords":  "Unit Converter - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Unit Converter to convert between common length, weight, volume, time, area, and speed units. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Unix Timestamp Converter - Free Online Developer Tool",
+                      "title":  "Unix Timestamp Converter - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/unix-timestamp-converter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1460,7 +1460,7 @@
                       "keywords":  "Unix Timestamp Converter - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free Unix Timestamp Converter to convert Unix timestamps to dates and dates back to Unix time. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Uppercase Converter - Free Online Text Tool",
+                      "title":  "Uppercase Converter - Free Online Text Tool | ToolVanta",
                       "url":  "tools/uppercase-converter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1468,7 +1468,7 @@
                       "keywords":  "Uppercase Converter - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Uppercase Converter to convert pasted text to clean uppercase instantly. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "URL Decoder - Free Online Developer Tool",
+                      "title":  "URL Decoder - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/url-decoder/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1476,7 +1476,7 @@
                       "keywords":  "URL Decoder - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free URL Decoder to decode percent-encoded URL text into readable content. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "URL Encoder - Free Online Developer Tool",
+                      "title":  "URL Encoder - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/url-encoder/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1484,7 +1484,7 @@
                       "keywords":  "URL Encoder - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free URL Encoder to encode text for safe use inside URLs and query strings. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Username Generator - Free Online Social Media Tool",
+                      "title":  "Username Generator - Free Online Social Media Tool | ToolVanta",
                       "url":  "tools/username-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1492,7 +1492,7 @@
                       "keywords":  "Username Generator - Free Online Social Media Tool | ToolVanta, Use ToolVanta\u0027s free Username Generator to generate brandable username ideas from keywords and styles. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "UTM URL Builder - Free Online Marketing Tool",
+                      "title":  "UTM URL Builder - Free Online Marketing Tool | ToolVanta",
                       "url":  "tools/utm-url-builder/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1500,7 +1500,7 @@
                       "keywords":  "UTM URL Builder - Free Online Marketing Tool | ToolVanta, Use ToolVanta\u0027s free UTM URL Builder to build campaign URLs with source, medium, campaign, term, and content parameters. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "UUID Generator - Free Online Developer Tool",
+                      "title":  "UUID Generator - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/uuid-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1508,7 +1508,7 @@
                       "keywords":  "UUID Generator - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free UUID Generator to generate RFC 4122 version 4 UUIDs in your browser. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "VAT Calculator - Free Online Calculator Tool",
+                      "title":  "VAT Calculator - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/vat-calculator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1516,7 +1516,7 @@
                       "keywords":  "VAT Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free VAT Calculator to add or remove VAT and see net, tax, and gross amounts. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Weight Converter - Free Online Calculator Tool",
+                      "title":  "Weight Converter - Free Online Calculator Tool | ToolVanta",
                       "url":  "tools/weight-converter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1524,7 +1524,7 @@
                       "keywords":  "Weight Converter - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Weight Converter to convert kilograms, pounds, ounces, grams, and stones. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Word Counter - Free Online Text Tool",
+                      "title":  "Word Counter - Free Online Text Tool | ToolVanta",
                       "url":  "tools/word-counter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1532,7 +1532,7 @@
                       "keywords":  "Word Counter - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Word Counter to count words, characters, sentences, paragraphs, and reading time from any text. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Word Frequency Counter - Free Online Text Tool",
+                      "title":  "Word Frequency Counter - Free Online Text Tool | ToolVanta",
                       "url":  "tools/word-frequency-counter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1540,7 +1540,7 @@
                       "keywords":  "Word Frequency Counter - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Word Frequency Counter to find the most repeated words in text and identify overused phrases. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Word Sorter - Free Online Text Tool",
+                      "title":  "Word Sorter - Free Online Text Tool | ToolVanta",
                       "url":  "tools/word-sorter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1548,7 +1548,7 @@
                       "keywords":  "Word Sorter - Free Online Text Tool | ToolVanta, Use ToolVanta\u0027s free Word Sorter to sort words alphabetically, reverse order, and optionally remove duplicates. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "X Post Generator - Free Online Social Media Tool",
+                      "title":  "X Post Generator - Free Online Social Media Tool | ToolVanta",
                       "url":  "tools/x-post-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1556,7 +1556,7 @@
                       "keywords":  "X Post Generator - Free Online Social Media Tool | ToolVanta, Use ToolVanta\u0027s free X Post Generator to draft concise X posts with hooks, insights, and optional hashtags. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "XML Formatter - Free Online Developer Tool",
+                      "title":  "XML Formatter - Free Online Developer Tool | ToolVanta",
                       "url":  "tools/xml-formatter/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1564,7 +1564,7 @@
                       "keywords":  "XML Formatter - Free Online Developer Tool | ToolVanta, Use ToolVanta\u0027s free XML Formatter to format XML markup with readable indentation. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "YouTube Channel Name Generator - Free Online Social Media Tool",
+                      "title":  "YouTube Channel Name Generator - Free Online Social Media Tool | ToolVanta",
                       "url":  "tools/youtube-channel-name-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1572,7 +1572,7 @@
                       "keywords":  "YouTube Channel Name Generator - Free Online Social Media Tool | ToolVanta, Use ToolVanta\u0027s free YouTube Channel Name Generator to generate channel name ideas for creators and niche brands. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "YouTube Description Generator - Free Online Social Media Tool",
+                      "title":  "YouTube Description Generator - Free Online Social Media Tool | ToolVanta",
                       "url":  "tools/youtube-description-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1580,7 +1580,7 @@
                       "keywords":  "YouTube Description Generator - Free Online Social Media Tool | ToolVanta, Use ToolVanta\u0027s free YouTube Description Generator to create YouTube video descriptions with summary, chapters, links, and hashtags. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "YouTube Tag Generator - Free Online Social Media Tool",
+                      "title":  "YouTube Tag Generator - Free Online Social Media Tool | ToolVanta",
                       "url":  "tools/youtube-tag-generator/",
                       "category":  "tool",
                       "type":  "tool",
@@ -1596,60 +1596,60 @@
                       "keywords":  "ToolVanta Use Cases - Toolkits for Real Workflows, Browse ToolVanta use-case toolkits for bloggers, developers, students, marketers, YouTubers, and small businesses."
                   },
                   {
-                      "title":  "Tools for Bloggers - Writing and SEO Toolkit",
+                      "title":  "Free AI Writing Tools and SEO Tools for Bloggers | ToolVanta",
                       "url":  "use-cases/bloggers/",
                       "category":  "page",
                       "type":  "page",
-                      "description":  "A free browser toolkit for bloggers: outlines, word counts, readability checks, title case, slug generation, SERP previews, and meta descriptions.",
-                      "keywords":  "Tools for Bloggers - Writing and SEO Toolkit | ToolVanta, A free browser toolkit for bloggers: outlines, word counts, readability checks, title case, slug generation, SERP previews, and meta descriptions."
+                      "description":  "ToolVanta helps bloggers use free AI writing tools, SEO tools, text utilities and content workflow helpers to plan, draft, optimize and publish faster.",
+                      "keywords":  "Free AI Writing Tools and SEO Tools for Bloggers | ToolVanta, ToolVanta helps bloggers use free AI writing tools, SEO tools, text utilities and content workflow helpers to plan, draft, optimize and publish faster."
                   },
                   {
-                      "title":  "Tools for Developers - JSON, Encoding, Regex, and Data Utilities",
+                      "title":  "Free Developer Tools and AI Coding Tool Workflows | ToolVanta",
                       "url":  "use-cases/developers/",
                       "category":  "page",
                       "type":  "page",
-                      "description":  "A free browser toolkit for developers who need JSON formatting, Base64, URL encoding, regex testing, JWT decoding, and CSV conversion.",
-                      "keywords":  "Tools for Developers - JSON, Encoding, Regex, and Data Utilities | ToolVanta, A free browser toolkit for developers who need JSON formatting, Base64, URL encoding, regex testing, JWT decoding, and CSV conversion."
+                      "description":  "Browser-based developer utilities for JSON, encoding, formatting, testing and AI coding tool workflows with no login or backend.",
+                      "keywords":  "Free Developer Tools and AI Coding Tool Workflows | ToolVanta, Browser-based developer utilities for JSON, encoding, formatting, testing and AI coding tool workflows with no login or backend."
                   },
                   {
-                      "title":  "Tools for Marketers - Campaign, SEO, and Copy Toolkit",
+                      "title":  "Free AI Business Tools and Marketing Tools for Growth Teams | ToolVanta",
                       "url":  "use-cases/marketers/",
                       "category":  "page",
                       "type":  "page",
-                      "description":  "Free browser tools for marketers: UTM builder, headline generator, ROI calculator, CTR calculator, SERP preview, and ad copy generator.",
-                      "keywords":  "Tools for Marketers - Campaign, SEO, and Copy Toolkit | ToolVanta, Free browser tools for marketers: UTM builder, headline generator, ROI calculator, CTR calculator, SERP preview, and ad copy generator."
+                      "description":  "Use ToolVanta for free AI business tools, campaign calculators, UTM builders, ad copy helpers and productivity workflows for marketers.",
+                      "keywords":  "Free AI Business Tools and Marketing Tools for Growth Teams | ToolVanta, Use ToolVanta for free AI business tools, campaign calculators, UTM builders, ad copy helpers and productivity workflows for marketers."
                   },
                   {
-                      "title":  "Tools for Small Businesses - Naming, Pricing, QR, and Copy Toolkit",
+                      "title":  "Free AI Business Tools for Small Businesses | ToolVanta",
                       "url":  "use-cases/small-businesses/",
                       "category":  "page",
                       "type":  "page",
-                      "description":  "Free browser tools for small businesses: business names, product descriptions, profit margins, QR codes, color palettes, and social captions.",
-                      "keywords":  "Tools for Small Businesses - Naming, Pricing, QR, and Copy Toolkit | ToolVanta, Free browser tools for small businesses: business names, product descriptions, profit margins, QR codes, color palettes, and social captions."
+                      "description":  "Free AI business tools, calculators, writing helpers and productivity utilities for small businesses that need fast browser-based workflows.",
+                      "keywords":  "Free AI Business Tools for Small Businesses | ToolVanta, Free AI business tools, calculators, writing helpers and productivity utilities for small businesses that need fast browser-based workflows."
                   },
                   {
-                      "title":  "Tools for Students - Study, Writing, and Calculator Toolkit",
+                      "title":  "Free AI Productivity Tools and Writing Tools for Students | ToolVanta",
                       "url":  "use-cases/students/",
                       "category":  "page",
                       "type":  "page",
-                      "description":  "Free browser tools for students: word counts, text cleanup, GPA calculator, Pomodoro timer, task sorting, and daily planning.",
-                      "keywords":  "Tools for Students - Study, Writing, and Calculator Toolkit | ToolVanta, Free browser tools for students: word counts, text cleanup, GPA calculator, Pomodoro timer, task sorting, and daily planning."
+                      "description":  "Use free AI productivity tools, word counters, writing utilities, planners and calculators for student essays, study workflows and assignments.",
+                      "keywords":  "Free AI Productivity Tools and Writing Tools for Students | ToolVanta, Use free AI productivity tools, word counters, writing utilities, planners and calculators for student essays, study workflows and assignments."
                   },
                   {
-                      "title":  "Tools for YouTubers - Channel, Script, Tag, and Thumbnail Toolkit",
+                      "title":  "Free AI Tools for YouTubers, Creators and Video Workflows | ToolVanta",
                       "url":  "use-cases/youtubers/",
                       "category":  "page",
                       "type":  "page",
-                      "description":  "Free browser tools for YouTubers: channel names, descriptions, tags, hooks, script outlines, QR codes, image resizing, and hashtags.",
-                      "keywords":  "Tools for YouTubers - Channel, Script, Tag, and Thumbnail Toolkit | ToolVanta, Free browser tools for YouTubers: channel names, descriptions, tags, hooks, script outlines, QR codes, image resizing, and hashtags."
+                      "description":  "Free AI tools for YouTubers and creators, including script outlines, descriptions, tags, titles, social captions and productivity helpers.",
+                      "keywords":  "Free AI Tools for YouTubers, Creators and Video Workflows | ToolVanta, Free AI tools for YouTubers and creators, including script outlines, descriptions, tags, titles, social captions and productivity helpers."
                   },
                   {
-                      "title":  "ToolVanta - 150 Free Online Browser Tools",
+                      "title":  "ToolVanta - Free AI Tools Directory, SEO Tools and Browser Utilities",
                       "url":  "index.html",
                       "category":  "site",
                       "type":  "page",
-                      "description":  "ToolVanta offers 150 free online tools for AI, SEO, text, developers, marketing, social media, calculators, images, and productivity. Static, fast, and private.",
-                      "keywords":  "ToolVanta - 150 Free Online Browser Tools, ToolVanta offers 150 free online tools for AI, SEO, text, developers, marketing, social media, calculators, images, and productivity. Static, fast, and private."
+                      "description":  "ToolVanta is a free AI tools directory with AI writing tools, AI productivity tools, AI business tools, SEO tools, developer utilities, calculators and browser-based workflows.",
+                      "keywords":  "ToolVanta - Free AI Tools Directory, SEO Tools and Browser Utilities, ToolVanta is a free AI tools directory with AI writing tools, AI productivity tools, AI business tools, SEO tools, developer utilities, calculators and browser-based workflows."
                   },
                   {
                       "title":  "Tool Categories - ToolVanta",
