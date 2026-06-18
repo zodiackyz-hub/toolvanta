@@ -1,7 +1,7 @@
 ﻿{
     "generatedAt":  "2026-06-18",
     "site":  "ToolVanta",
-    "count":  211,
+    "count":  218,
     "items":  [
                   {
                       "title":  "ToolVanta - Free AI Tools Directory, SEO Tools and Browser Utilities",
@@ -268,6 +268,30 @@
                       "keywords":  "AI Prompt Generator Guide | ToolVanta, Learn how to use an AI prompt generator to create clearer prompts for writing, coding, SEO, research, and planning workflows."
                   },
                   {
+                      "title":  "Best AI Coding Tools and Developer Utilities | ToolVanta",
+                      "url":  "resources/best-ai-coding-tools/",
+                      "category":  "resource",
+                      "type":  "resource",
+                      "description":  "Use ToolVanta developer utilities with AI coding workflows for JSON formatting, regex testing, Base64, URL encoding, JWT decoding and CSV conversion.",
+                      "keywords":  "Best AI Coding Tools and Developer Utilities | ToolVanta, Use ToolVanta developer utilities with AI coding workflows for JSON formatting, regex testing, Base64, URL encoding, JWT decoding and CSV conversion."
+                  },
+                  {
+                      "title":  "Best AI Image Generator Workflows and Image Tools | ToolVanta",
+                      "url":  "resources/best-ai-image-generators/",
+                      "category":  "resource",
+                      "type":  "resource",
+                      "description":  "Prepare AI image generator outputs with ToolVanta image resizing, compression, color extraction, Base64 conversion and crop ratio tools.",
+                      "keywords":  "Best AI Image Generator Workflows and Image Tools | ToolVanta, Prepare AI image generator outputs with ToolVanta image resizing, compression, color extraction, Base64 conversion and crop ratio tools."
+                  },
+                  {
+                      "title":  "Best AI Productivity Tools for Planning, Meetings and Focus | ToolVanta",
+                      "url":  "resources/best-ai-productivity-tools/",
+                      "category":  "resource",
+                      "type":  "resource",
+                      "description":  "Explore AI productivity tools and browser workflows for planning, meetings, daily schedules, summaries, habits and prioritization.",
+                      "keywords":  "Best AI Productivity Tools for Planning, Meetings and Focus | ToolVanta, Explore AI productivity tools and browser workflows for planning, meetings, daily schedules, summaries, habits and prioritization."
+                  },
+                  {
                       "title":  "Best Free AI Tools for Prompts, Writing, Business and Productivity | ToolVanta",
                       "url":  "resources/best-ai-prompt-tools/",
                       "category":  "resource",
@@ -276,12 +300,44 @@
                       "keywords":  "Best Free AI Tools for Prompts, Writing, Business and Productivity | ToolVanta, Explore ToolVanta as a free AI tools directory for AI writing tools, prompt builders, AI productivity tools, AI business tools and practical ChatGPT alternative workflows."
                   },
                   {
+                      "title":  "Best AI Tools for Students, Essays and Study Workflows | ToolVanta",
+                      "url":  "resources/best-ai-tools-for-students/",
+                      "category":  "resource",
+                      "type":  "resource",
+                      "description":  "Use ToolVanta AI tools for student writing, essay planning, summaries, study organization, word counts and productivity workflows.",
+                      "keywords":  "Best AI Tools for Students, Essays and Study Workflows | ToolVanta, Use ToolVanta AI tools for student writing, essay planning, summaries, study organization, word counts and productivity workflows."
+                  },
+                  {
+                      "title":  "Best AI Writing Tools for Emails, Blogs, SEO and Social Copy | ToolVanta",
+                      "url":  "resources/best-ai-writing-tools/",
+                      "category":  "resource",
+                      "type":  "resource",
+                      "description":  "Explore AI writing tools for emails, blog outlines, meta descriptions, product descriptions, FAQs, resumes and social posts.",
+                      "keywords":  "Best AI Writing Tools for Emails, Blogs, SEO and Social Copy | ToolVanta, Explore AI writing tools for emails, blog outlines, meta descriptions, product descriptions, FAQs, resumes and social posts."
+                  },
+                  {
+                      "title":  "Best ChatGPT Alternatives for Lightweight AI Workflows | ToolVanta",
+                      "url":  "resources/best-chatgpt-alternatives/",
+                      "category":  "resource",
+                      "type":  "resource",
+                      "description":  "Use ToolVanta as a lightweight ChatGPT alternative workflow for prompts, templates, AI writing helpers and browser-based productivity tools.",
+                      "keywords":  "Best ChatGPT Alternatives for Lightweight AI Workflows | ToolVanta, Use ToolVanta as a lightweight ChatGPT alternative workflow for prompts, templates, AI writing helpers and browser-based productivity tools."
+                  },
+                  {
                       "title":  "Best Free Developer Tools for JSON, Encoding and AI Coding Workflows | ToolVanta",
                       "url":  "resources/best-developer-tools-for-json-and-encoding/",
                       "category":  "resource",
                       "type":  "resource",
                       "description":  "Use free browser developer tools for JSON, Base64, URL encoding, CSV conversion and AI coding tool workflows without login or backend processing.",
                       "keywords":  "Best Free Developer Tools for JSON, Encoding and AI Coding Workflows | ToolVanta, Use free browser developer tools for JSON, Base64, URL encoding, CSV conversion and AI coding tool workflows without login or backend processing."
+                  },
+                  {
+                      "title":  "Best Free AI Tools for Writing, Business and Productivity | ToolVanta",
+                      "url":  "resources/best-free-ai-tools/",
+                      "category":  "resource",
+                      "type":  "resource",
+                      "description":  "A practical guide to the best free AI tools on ToolVanta for prompts, writing, business, productivity, SEO and creator workflows.",
+                      "keywords":  "Best Free AI Tools for Writing, Business and Productivity | ToolVanta, A practical guide to the best free AI tools on ToolVanta for prompts, writing, business, productivity, SEO and creator workflows."
                   },
                   {
                       "title":  "Best Free SEO Tools - Browser SEO Workflow | ToolVanta",
@@ -396,124 +452,124 @@
                       "keywords":  "Age Calculator - Free Online Calculator Tool | ToolVanta, Use ToolVanta\u0027s free Age Calculator to calculate exact age in years, months, and days from a birth date. Fast, private, mobile-friendly, and built for GitHub Pages."
                   },
                   {
-                      "title":  "Ai Ad Copy Generator - Free AI Business Tool | ToolVanta",
+                      "title":  "AI Ad Copy Generator - Free AI Business Tool | ToolVanta",
                       "url":  "tools/ai-ad-copy-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai Ad Copy Generator as a free AI tool. AI business tool for ad copy, campaign ideas and marketing productivity. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai Ad Copy Generator - Free AI Business Tool | ToolVanta, Use ToolVanta\u0027s Ai Ad Copy Generator as a free AI tool. AI business tool for ad copy, campaign ideas and marketing productivity. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI Ad Copy Generator as a free AI tool. AI business tool for ad copy, campaign ideas and marketing productivity. Runs in your browser with no login, backend or database.",
+                      "keywords":  "AI Ad Copy Generator - Free AI Business Tool | ToolVanta, Use ToolVanta\u0027s AI Ad Copy Generator as a free AI tool. AI business tool for ad copy, campaign ideas and marketing productivity. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Ai Blog Outline Generator - Free AI Writing Tool | ToolVanta",
+                      "title":  "AI Blog Outline Generator - Free AI Writing Tool | ToolVanta",
                       "url":  "tools/ai-blog-outline-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai Blog Outline Generator as a free AI tool. AI writing tool for blog outlines, SEO planning and structured content briefs. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai Blog Outline Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s Ai Blog Outline Generator as a free AI tool. AI writing tool for blog outlines, SEO planning and structured content briefs. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI Blog Outline Generator as a free AI tool. AI writing tool for blog outlines, SEO planning and structured content briefs. Runs in your browser with no login, backend or database.",
+                      "keywords":  "AI Blog Outline Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s AI Blog Outline Generator as a free AI tool. AI writing tool for blog outlines, SEO planning and structured content briefs. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Ai Content Brief Generator - Free AI Writing Tool | ToolVanta",
+                      "title":  "AI Content Brief Generator - Free AI Writing Tool | ToolVanta",
                       "url":  "tools/ai-content-brief-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai Content Brief Generator as a free AI tool. AI writing and SEO tool for content briefs, outlines and search intent planning. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai Content Brief Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s Ai Content Brief Generator as a free AI tool. AI writing and SEO tool for content briefs, outlines and search intent planning. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI Content Brief Generator as a free AI tool. AI writing and SEO tool for content briefs, outlines and search intent planning. Runs in your browser with no login, backend or database.",
+                      "keywords":  "AI Content Brief Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s AI Content Brief Generator as a free AI tool. AI writing and SEO tool for content briefs, outlines and search intent planning. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Ai Email Writer - Free AI Writing Tool | ToolVanta",
+                      "title":  "AI Email Writer - Free AI Writing Tool | ToolVanta",
                       "url":  "tools/ai-email-writer/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai Email Writer as a free AI tool. AI writing tool for email drafts, outreach, support replies and productivity workflows. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai Email Writer - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s Ai Email Writer as a free AI tool. AI writing tool for email drafts, outreach, support replies and productivity workflows. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI Email Writer as a free AI tool. AI writing tool for email drafts, outreach, support replies and productivity workflows. Runs in your browser with no login, backend or database.",
+                      "keywords":  "AI Email Writer - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s AI Email Writer as a free AI tool. AI writing tool for email drafts, outreach, support replies and productivity workflows. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Ai Faq Generator - Free AI Writing Tool | ToolVanta",
+                      "title":  "AI FAQ Generator - Free AI Writing Tool | ToolVanta",
                       "url":  "tools/ai-faq-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai Faq Generator as a free AI tool. AI writing tool for FAQ sections, support content and SEO landing page answers. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai Faq Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s Ai Faq Generator as a free AI tool. AI writing tool for FAQ sections, support content and SEO landing page answers. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI FAQ Generator as a free AI tool. AI writing tool for FAQ sections, support content and SEO landing page answers. Runs in your browser with no login, backend or database.",
+                      "keywords":  "AI FAQ Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s AI FAQ Generator as a free AI tool. AI writing tool for FAQ sections, support content and SEO landing page answers. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Ai İdea Generator - Free AI Tool for Writing and Productivity | ToolVanta",
+                      "title":  "Ai Ä°dea Generator - Free AI Tool for Writing and Productivity | ToolVanta",
                       "url":  "tools/ai-idea-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai İdea Generator as a free AI tool. AI productivity tool for brainstorming ideas, topics and project angles. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai İdea Generator - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s Ai İdea Generator as a free AI tool. AI productivity tool for brainstorming ideas, topics and project angles. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI Ä°dea Generator as a free AI tool. AI productivity tool for brainstorming ideas, topics and project angles. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Ä°dea Generator - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s AI Ä°dea Generator as a free AI tool. AI productivity tool for brainstorming ideas, topics and project angles. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Ai İnterview Question Generator - Free AI Business Tool | ToolVanta",
+                      "title":  "Ai Ä°nterview Question Generator - Free AI Business Tool | ToolVanta",
                       "url":  "tools/ai-interview-question-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai İnterview Question Generator as a free AI tool. AI business and productivity tool for interview prep, hiring workflows and question lists. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai İnterview Question Generator - Free AI Business Tool | ToolVanta, Use ToolVanta\u0027s Ai İnterview Question Generator as a free AI tool. AI business and productivity tool for interview prep, hiring workflows and question lists. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI Ä°nterview Question Generator as a free AI tool. AI business and productivity tool for interview prep, hiring workflows and question lists. Runs in your browser with no login, backend or database.",
+                      "keywords":  "Ai Ä°nterview Question Generator - Free AI Business Tool | ToolVanta, Use ToolVanta\u0027s AI Ä°nterview Question Generator as a free AI tool. AI business and productivity tool for interview prep, hiring workflows and question lists. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Ai Linkedin Post Generator - Free AI Business Tool | ToolVanta",
+                      "title":  "AI LinkedIn Post Generator - Free AI Business Tool | ToolVanta",
                       "url":  "tools/ai-linkedin-post-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai Linkedin Post Generator as a free AI tool. AI business writing tool for LinkedIn posts, thought leadership and professional updates. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai Linkedin Post Generator - Free AI Business Tool | ToolVanta, Use ToolVanta\u0027s Ai Linkedin Post Generator as a free AI tool. AI business writing tool for LinkedIn posts, thought leadership and professional updates. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI LinkedIn Post Generator as a free AI tool. AI business writing tool for LinkedIn posts, thought leadership and professional updates. Runs in your browser with no login, backend or database.",
+                      "keywords":  "AI LinkedIn Post Generator - Free AI Business Tool | ToolVanta, Use ToolVanta\u0027s AI LinkedIn Post Generator as a free AI tool. AI business writing tool for LinkedIn posts, thought leadership and professional updates. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Ai Meeting Summary Template - Free AI Tool for Writing and Productivity | ToolVanta",
+                      "title":  "AI Meeting Summary Template - Free AI Tool for Writing and Productivity | ToolVanta",
                       "url":  "tools/ai-meeting-summary-template/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai Meeting Summary Template as a free AI tool. AI productivity tool for meeting summaries, notes and action item workflows. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai Meeting Summary Template - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s Ai Meeting Summary Template as a free AI tool. AI productivity tool for meeting summaries, notes and action item workflows. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI Meeting Summary Template as a free AI tool. AI productivity tool for meeting summaries, notes and action item workflows. Runs in your browser with no login, backend or database.",
+                      "keywords":  "AI Meeting Summary Template - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s AI Meeting Summary Template as a free AI tool. AI productivity tool for meeting summaries, notes and action item workflows. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Ai Meta Description Generator - Free AI Tool for Writing and Productivity | ToolVanta",
+                      "title":  "AI Meta Description Generator - Free AI Tool for Writing and Productivity | ToolVanta",
                       "url":  "tools/ai-meta-description-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai Meta Description Generator as a free AI tool. AI SEO writing tool for meta descriptions, snippets and search-friendly page summaries. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai Meta Description Generator - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s Ai Meta Description Generator as a free AI tool. AI SEO writing tool for meta descriptions, snippets and search-friendly page summaries. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI Meta Description Generator as a free AI tool. AI SEO writing tool for meta descriptions, snippets and search-friendly page summaries. Runs in your browser with no login, backend or database.",
+                      "keywords":  "AI Meta Description Generator - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s AI Meta Description Generator as a free AI tool. AI SEO writing tool for meta descriptions, snippets and search-friendly page summaries. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Ai Product Description Generator - Free AI Business Tool | ToolVanta",
+                      "title":  "AI Product Description Generator - Free AI Business Tool | ToolVanta",
                       "url":  "tools/ai-product-description-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai Product Description Generator as a free AI tool. AI business tool for ecommerce product descriptions, feature copy and sales pages. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai Product Description Generator - Free AI Business Tool | ToolVanta, Use ToolVanta\u0027s Ai Product Description Generator as a free AI tool. AI business tool for ecommerce product descriptions, feature copy and sales pages. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI Product Description Generator as a free AI tool. AI business tool for ecommerce product descriptions, feature copy and sales pages. Runs in your browser with no login, backend or database.",
+                      "keywords":  "AI Product Description Generator - Free AI Business Tool | ToolVanta, Use ToolVanta\u0027s AI Product Description Generator as a free AI tool. AI business tool for ecommerce product descriptions, feature copy and sales pages. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Ai Prompt Generator - Free AI Tool for Writing and Productivity | ToolVanta",
+                      "title":  "AI Prompt Generator - Free AI Tool for Writing and Productivity | ToolVanta",
                       "url":  "tools/ai-prompt-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai Prompt Generator as a free AI tool. Free AI prompt builder for AI productivity tools, ChatGPT alternative workflows and structured prompts. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai Prompt Generator - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s Ai Prompt Generator as a free AI tool. Free AI prompt builder for AI productivity tools, ChatGPT alternative workflows and structured prompts. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI Prompt Generator as a free AI tool. Free AI prompt builder for AI productivity tools, ChatGPT alternative workflows and structured prompts. Runs in your browser with no login, backend or database.",
+                      "keywords":  "AI Prompt Generator - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s AI Prompt Generator as a free AI tool. Free AI prompt builder for AI productivity tools, ChatGPT alternative workflows and structured prompts. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Ai Resume Bullet Generator - Free AI Writing Tool | ToolVanta",
+                      "title":  "AI Resume Bullet Generator - Free AI Writing Tool | ToolVanta",
                       "url":  "tools/ai-resume-bullet-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai Resume Bullet Generator as a free AI tool. AI writing tool for resume bullets, career achievements and professional summaries. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai Resume Bullet Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s Ai Resume Bullet Generator as a free AI tool. AI writing tool for resume bullets, career achievements and professional summaries. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI Resume Bullet Generator as a free AI tool. AI writing tool for resume bullets, career achievements and professional summaries. Runs in your browser with no login, backend or database.",
+                      "keywords":  "AI Resume Bullet Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s AI Resume Bullet Generator as a free AI tool. AI writing tool for resume bullets, career achievements and professional summaries. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Ai Tweet Generator - Free AI Tool for Writing and Productivity | ToolVanta",
+                      "title":  "AI Tweet Generator - Free AI Tool for Writing and Productivity | ToolVanta",
                       "url":  "tools/ai-tweet-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai Tweet Generator as a free AI tool. AI social writing tool for short posts, hooks and creator workflows. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai Tweet Generator - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s Ai Tweet Generator as a free AI tool. AI social writing tool for short posts, hooks and creator workflows. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI Tweet Generator as a free AI tool. AI social writing tool for short posts, hooks and creator workflows. Runs in your browser with no login, backend or database.",
+                      "keywords":  "AI Tweet Generator - Free AI Tool for Writing and Productivity | ToolVanta, Use ToolVanta\u0027s AI Tweet Generator as a free AI tool. AI social writing tool for short posts, hooks and creator workflows. Runs in your browser with no login, backend or database."
                   },
                   {
-                      "title":  "Ai Youtube Script Outline Generator - Free AI Writing Tool | ToolVanta",
+                      "title":  "AI YouTube Script Outline Generator - Free AI Writing Tool | ToolVanta",
                       "url":  "tools/ai-youtube-script-outline-generator/",
                       "category":  "tool",
                       "type":  "tool",
-                      "description":  "Use ToolVanta\u0027s Ai Youtube Script Outline Generator as a free AI tool. AI writing tool for YouTube outlines, creator scripts and video planning. Runs in your browser with no login, backend or database.",
-                      "keywords":  "Ai Youtube Script Outline Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s Ai Youtube Script Outline Generator as a free AI tool. AI writing tool for YouTube outlines, creator scripts and video planning. Runs in your browser with no login, backend or database."
+                      "description":  "Use ToolVanta\u0027s AI YouTube Script Outline Generator as a free AI tool. AI writing tool for YouTube outlines, creator scripts and video planning. Runs in your browser with no login, backend or database.",
+                      "keywords":  "AI YouTube Script Outline Generator - Free AI Writing Tool | ToolVanta, Use ToolVanta\u0027s AI YouTube Script Outline Generator as a free AI tool. AI writing tool for YouTube outlines, creator scripts and video planning. Runs in your browser with no login, backend or database."
                   },
                   {
                       "title":  "Alphabetical List Sorter - Free Online Text Tool | ToolVanta",

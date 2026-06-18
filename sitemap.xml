@@ -6,7 +6,7 @@
   <url><loc>https://toolvanta.space/authors/technical-review/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
   <url><loc>https://toolvanta.space/authors/toolvanta-editorial-team/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
   <url><loc>https://toolvanta.space/categories.html</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
-  <url><loc>https://toolvanta.space/categories/ai/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://toolvanta.space/categories/ai/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
   <url><loc>https://toolvanta.space/categories/calculator/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
   <url><loc>https://toolvanta.space/categories/developer/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
   <url><loc>https://toolvanta.space/categories/image/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
@@ -15,7 +15,6 @@
   <url><loc>https://toolvanta.space/categories/seo/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
   <url><loc>https://toolvanta.space/categories/social-media/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
   <url><loc>https://toolvanta.space/categories/text/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
-  <url><loc>https://toolvanta.space/changelog.html</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.65</priority></url>
   <url><loc>https://toolvanta.space/compare/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
   <url><loc>https://toolvanta.space/compare/ai-prompt-generator-vs-ai-blog-outline-generator/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
   <url><loc>https://toolvanta.space/compare/base64-encoder-vs-url-encoder/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.70</priority></url>
@@ -39,8 +38,15 @@
   <url><loc>https://toolvanta.space/resources/ai-blog-outline-generator-guide/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://toolvanta.space/resources/ai-email-writer-guide/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://toolvanta.space/resources/ai-prompt-generator-guide/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://toolvanta.space/resources/best-ai-coding-tools/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://toolvanta.space/resources/best-ai-image-generators/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://toolvanta.space/resources/best-ai-productivity-tools/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://toolvanta.space/resources/best-ai-prompt-tools/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://toolvanta.space/resources/best-ai-tools-for-students/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://toolvanta.space/resources/best-ai-writing-tools/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://toolvanta.space/resources/best-chatgpt-alternatives/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://toolvanta.space/resources/best-developer-tools-for-json-and-encoding/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
+  <url><loc>https://toolvanta.space/resources/best-free-ai-tools/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://toolvanta.space/resources/best-free-seo-tools/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://toolvanta.space/resources/best-text-tools-for-writers/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
   <url><loc>https://toolvanta.space/resources/free-online-calculators/</loc><lastmod>2026-06-18</lastmod><changefreq>monthly</changefreq><priority>0.75</priority></url>
