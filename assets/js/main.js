@@ -26,15 +26,42 @@
   }
   applyTheme(getTheme());
 
-  function initNav(){
+  function closeMobileMenu(toggle, nav){
+    nav.classList.remove('open');
+    toggle.setAttribute('aria-expanded', 'false');
+  }
+  function initMobileMenu(){
     var toggle = document.querySelector('.nav-toggle');
     var nav = document.querySelector('.main-nav');
-    if(toggle && nav){
-      toggle.addEventListener('click', function(){
+    if(!toggle || !nav) return;
+    if(toggle.dataset.mobileMenuInitialized !== 'true'){
+      toggle.dataset.mobileMenuInitialized = 'true';
+      toggle.addEventListener('click', function(event){
+        event.stopPropagation();
         var open = nav.classList.toggle('open');
         toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
       });
     }
+    if(document.documentElement.dataset.mobileMenuCloseInitialized !== 'true'){
+      document.documentElement.dataset.mobileMenuCloseInitialized = 'true';
+      document.addEventListener('keydown', function(event){
+        if(event.key !== 'Escape') return;
+        var currentToggle = document.querySelector('.nav-toggle');
+        var currentNav = document.querySelector('.main-nav');
+        if(currentToggle && currentNav && currentNav.classList.contains('open')) closeMobileMenu(currentToggle, currentNav);
+      });
+      document.addEventListener('click', function(event){
+        var currentToggle = document.querySelector('.nav-toggle');
+        var currentNav = document.querySelector('.main-nav');
+        if(!currentToggle || !currentNav || !currentNav.classList.contains('open')) return;
+        if(currentNav.contains(event.target) || currentToggle.contains(event.target)) return;
+        closeMobileMenu(currentToggle, currentNav);
+      });
+    }
+  }
+  function initNav(){
+    initMobileMenu();
+    var nav = document.querySelector('.main-nav');
     if(nav && !nav.querySelector('a[href*="use-cases"]')){
       var use = document.createElement('a');
       use.href = pathToRoot() + 'use-cases/index.html';
@@ -348,7 +375,7 @@
     var shell = document.createElement('div');
     shell.id = 'command-palette';
     shell.className = 'command-palette hidden';
-    shell.innerHTML = '<div class="command-dialog" role="dialog" aria-modal="true" aria-label="Command palette"><div class="command-head"><strong>Search ToolVanta</strong><span>Ctrl K</span></div><input id="command-search" type="search" placeholder="Search tools, resources, use cases..." autocomplete="off"><div class="command-results" id="command-results"><a class="command-item" href="'+pathToRoot()+'tools/index.html"><span>All Tools</span><small>Navigation</small></a><a class="command-item" href="'+pathToRoot()+'resources/index.html"><span>Resources</span><small>Navigation</small></a><a class="command-item" href="'+pathToRoot()+'use-cases/index.html"><span>Use Cases</span><small>Navigation</small></a><a class="command-item" href="'+pathToRoot()+'tools/word-counter/"><span>Word Counter</span><small>Text</small></a><a class="command-item" href="'+pathToRoot()+'tools/json-formatter/"><span>JSON Formatter</span><small>Developer</small></a></div></div>';
+    shell.innerHTML = '<div class="command-dialog" role="dialog" aria-modal="true" aria-label="Command palette"><div class="command-head"><strong>Search ToolVanta</strong><span>Ctrl K</span></div><input id="command-search" type="search" aria-label="Search tools" placeholder="Search tools, resources, use cases..." autocomplete="off"><div class="command-results" id="command-results"><a class="command-item" href="'+pathToRoot()+'tools/index.html"><span>All Tools</span><small>Navigation</small></a><a class="command-item" href="'+pathToRoot()+'resources/index.html"><span>Resources</span><small>Navigation</small></a><a class="command-item" href="'+pathToRoot()+'use-cases/index.html"><span>Use Cases</span><small>Navigation</small></a><a class="command-item" href="'+pathToRoot()+'tools/word-counter/"><span>Word Counter</span><small>Text</small></a><a class="command-item" href="'+pathToRoot()+'tools/json-formatter/"><span>JSON Formatter</span><small>Developer</small></a></div></div>';
     document.body.appendChild(shell);
     var input = document.getElementById('command-search');
     var results = document.getElementById('command-results');

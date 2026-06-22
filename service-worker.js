@@ -1,4 +1,4 @@
-﻿const CACHE_NAME = 'toolvanta-static-v13';
+﻿const CACHE_NAME = 'toolvanta-static-v16';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -60,10 +60,10 @@ const CORE_ASSETS = [
   './compare/image-resizer-vs-image-compressor/',
   './search-index.json',
   './manifest.json',
-  './assets/css/styles.css?v=13',
-  './assets/js/main.js?v=13',
+  './assets/css/styles.css?v=15',
+  './assets/js/main.js?v=15',
   './assets/js/data.js?v=13',
-  './assets/js/tool.js?v=13',
+  './assets/js/tool.js?v=14',
   './assets/img/favicon.svg',
   './tools/word-counter/',
   './tools/json-formatter/',
@@ -89,7 +89,7 @@ self.addEventListener('install', event => {
 self.addEventListener('activate', event => {
   event.waitUntil(
     caches.keys()
-      .then(keys => Promise.all(keys.filter(key => key !== CACHE_NAME).map(key => caches.delete(key))))
+      .then(keys => Promise.all(keys.filter(key => key.startsWith('toolvanta-static-') && key !== CACHE_NAME).map(key => caches.delete(key))))
       .then(() => self.clients.claim())
   );
 });
@@ -111,6 +111,19 @@ self.addEventListener('fetch', event => {
       }).catch(() => {
         return caches.match(request).then(cached => cached || caches.match('./offline.html'));
       })
+    );
+    return;
+  }
+
+  if (url.pathname.endsWith('/search-index.json') || url.pathname.endsWith('/sitemap.xml') || url.pathname.endsWith('/robots.txt')) {
+    event.respondWith(
+      fetch(request).then(response => {
+        if (response && response.ok) {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(request, copy));
+        }
+        return response;
+      }).catch(() => caches.match(request))
     );
     return;
   }

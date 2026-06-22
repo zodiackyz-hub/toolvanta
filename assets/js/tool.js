@@ -3,15 +3,6 @@
     if(document.readyState !== 'loading') fn();
     else document.addEventListener('DOMContentLoaded', fn);
   }
-  function initNav(){
-    var toggle = document.querySelector('.nav-toggle');
-    var nav = document.querySelector('.main-nav');
-    if(!toggle || !nav) return;
-    toggle.addEventListener('click', function(){
-      var open = nav.classList.toggle('open');
-      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-    });
-  }
   function initYear(){
     var y = document.getElementById('year');
     if(y) y.textContent = String(new Date().getFullYear());
@@ -36,6 +27,43 @@
     }
     return node;
   }
+  var TOOL_LOADING_MESSAGE = 'Tool is loading. If it does not appear, refresh the page or try again.';
+  var TOOL_ERROR_MESSAGE = 'This tool could not be loaded. Please refresh the page.';
+  function setToolLoading(root){
+    if(!root || root.querySelector('.tool-form')) return;
+    root.innerHTML = '';
+    root.appendChild(h('p', { class:'muted tool-loading-message', text: TOOL_LOADING_MESSAGE }));
+  }
+  function showToolError(root, detail){
+    if(window.console && console.error) console.error('ToolVanta tool render error:', detail);
+    if(!root) return;
+    root.dataset.toolRenderFailed = 'true';
+    root.innerHTML = '';
+    root.appendChild(h('p', { class:'muted tool-error-message', role:'alert', text: TOOL_ERROR_MESSAGE }));
+  }
+  function renderToolSafely(root, id, renderer){
+    if(!root){
+      if(window.console && console.error) console.error('ToolVanta tool render error: missing #tool-root container.');
+      return false;
+    }
+    if(!id){
+      showToolError(root, 'Missing data-tool-id on #tool-root.');
+      return false;
+    }
+    if(typeof renderer !== 'function') return false;
+    try {
+      renderer(root);
+      return true;
+    } catch(error){
+      showToolError(root, { id: id, error: error });
+      return true;
+    }
+  }
+  window.ToolVantaToolRuntime = {
+    setLoading: setToolLoading,
+    fail: showToolError,
+    renderSafely: renderToolSafely
+  };
   function clear(root){ root.innerHTML = ''; }
   function field(labelText, control, help){
     var id = control.id || ('field-' + Math.random().toString(36).slice(2));
@@ -777,12 +805,19 @@
     'color-picker': colorPicker
   };
   ready(function(){
-    initNav(); initYear();
+    initYear();
     var root = document.getElementById('tool-root');
-    if(!root) return;
-    var id = root.getAttribute('data-tool-id');
-    if(renderers[id]) renderers[id](root);
-    else root.textContent = 'Tool not found.';
+    if(!root){
+      if(window.console && console.error) console.error('ToolVanta tool render error: #tool-root container was not found.');
+      return;
+    }
+    setToolLoading(root);
+    var id = (root.getAttribute('data-tool-id') || '').trim();
+    if(!id){
+      showToolError(root, 'Missing data-tool-id on #tool-root.');
+      return;
+    }
+    if(renderers[id]) renderToolSafely(root, id, renderers[id]);
   });
 })();
 
@@ -1244,8 +1279,12 @@
   ready(function(){
     var root=document.getElementById('tool-root');
     if(!root) return;
-    var id=root.getAttribute('data-tool-id');
-    if(premium[id]) premium[id](root);
+    var id=(root.getAttribute('data-tool-id') || '').trim();
+    var runtime=window.ToolVantaToolRuntime;
+    if(premium[id]){
+      if(runtime && runtime.renderSafely) runtime.renderSafely(root, id, premium[id]);
+      else premium[id](root);
+    }
   });
 })();
 
@@ -1277,5 +1316,31 @@
   function renderDev(root,tool){ textTool(root,'Input','Paste input',function(v){ var type=tool.type; try{ if(type==='regex-tester') return (v.match(new RegExp('tool','gi'))||[]).join(String.fromCharCode(10))||'No matches for default pattern: tool'; if(type==='jwt-decoder'){ var p=v.split('.'); return p.length>1?atob(p[1].replace(/-/g,'+').replace(/_/g,'/')):'Paste a JWT token.'; } if(type==='csv-to-json'){ var rows=lines(v).filter(Boolean), heads=(rows.shift()||'').split(','); return JSON.stringify(rows.map(function(row){var cells=row.split(','),o={};heads.forEach(function(h,i){o[h.trim()]=(cells[i]||'').trim();});return o;}),null,2); } if(type==='json-to-csv'){ var arr=JSON.parse(v||'[]'); if(!Array.isArray(arr)) arr=[arr]; var keys=Object.keys(arr[0]||{}); return keys.join(',')+String.fromCharCode(10)+arr.map(function(o){return keys.map(function(k){return o[k];}).join(',');}).join(String.fromCharCode(10)); } if(type==='hash-generator'){ var h=5381; for(var i=0;i<v.length;i++) h=((h<<5)+h)+v.charCodeAt(i); return 'Fast hash: '+(h>>>0).toString(16); } return v.replace(/>\s*</g,'>'+String.fromCharCode(10)+'<').replace(/[{;]/g,function(m){return m+String.fromCharCode(10);}); }catch(e){ return e.message; } }); }
   function renderImage(root,tool){ root.innerHTML=''; var file=input('file'), a=input('number','1200'), b=input('number','630'), color=input('color','#0f766e'), preview=el('div',{class:'image-preview'}), out=box('Result'), note=el('span',{class:'copy-note'}); file.accept='image/*'; function imageResult(src,name){ out.box.innerHTML=''; var img=el('img',{alt:'Generated image',src:src}); out.box.appendChild(img); if(name){ var link=el('a',{class:'download-link',href:src,download:name,text:'Download image'}); out.box.appendChild(link); } } function showSvg(){ var w=Math.max(1,parseInt(a.value,10)||1200), h=Math.max(1,parseInt(b.value,10)||630); var svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+w+'" height="'+h+'"><rect width="100%" height="100%" fill="'+color.value+'"/><text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" font-family="Arial" font-size="48" fill="#fff">ToolVanta</text></svg>'; preview.innerHTML=svg; imageResult('data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg),'toolvanta.svg'); } function canvasOutput(src){ var img=new Image(); img.onload=function(){ var w=Math.max(1,parseInt(a.value,10)||img.naturalWidth), h=Math.max(1,parseInt(b.value,10)||img.naturalHeight), canvas=document.createElement('canvas'), ctx=canvas.getContext('2d'); canvas.width=w; canvas.height=h; ctx.drawImage(img,0,0,w,h); var mime=tool.type==='image-compressor'?'image/jpeg':'image/png'; var data=canvas.toDataURL(mime,0.82); preview.innerHTML=''; preview.appendChild(canvas); imageResult(data, tool.type==='image-compressor'?'compressed.jpg':'resized.png'); }; img.onerror=function(){ out.box.textContent='Image could not be loaded.'; }; img.src=src; } function runFile(){ if(!file.files[0]){showSvg();return;} var fr=new FileReader(); fr.onload=function(){ if(tool.type==='image-base64'){ preview.innerHTML='<img alt="Preview" src="'+fr.result+'">'; out.box.textContent=fr.result; return; } canvasOutput(fr.result); }; fr.readAsDataURL(file.files[0]); } [file,a,b,color].forEach(function(x){x.addEventListener('input',runFile);x.addEventListener('change',runFile);}); if(tool.type==='svg-optimizer') return renderDev(root,tool); if(tool.type==='gradient-generator'){ preview.className='gradient-preview'; function grad(){ var css='linear-gradient(135deg, '+color.value+', #8a1538)'; preview.style.background=css; out.box.textContent='background: '+css+';'; } color.addEventListener('input',grad); root.appendChild(el('div',{class:'tool-form'},field('First color',color),preview,out.wrap)); grad(); return; } root.appendChild(el('div',{class:'tool-form'},field('Image file',file),el('div',{class:'inline-grid'},field('Width',a),field('Height',b)),field('Color',color),preview,out.wrap,el('div',{class:'action-row'},button('Copy result',function(){copyText(out.box.textContent,note);},'secondary-btn'),note))); showSvg(); }
   function renderProductivity(root,tool){ if(tool.type==='pomodoro-timer'){ root.innerHTML=''; var minutes=input('number','25'), out=box('Timer'), left=1500,timer=null; function paint(){out.box.textContent=String(Math.floor(left/60)).padStart(2,'0')+':'+String(left%60).padStart(2,'0');} function reset(){clearInterval(timer);timer=null;left=parseInt(minutes.value,10)*60;paint();} function start(){if(timer)return;timer=setInterval(function(){left=Math.max(0,left-1);paint();if(left===0)clearInterval(timer);},1000);} minutes.addEventListener('input',reset); root.appendChild(el('div',{class:'tool-form'},field('Focus minutes',minutes),out.wrap,el('div',{class:'action-row'},button('Start',start),button('Reset',reset,'secondary-btn')))); reset(); return; } return renderTemplate(root,tool); }
-  ready(function(){ var root=document.getElementById('tool-root'); if(!root) return; var id=root.getAttribute('data-tool-id'), tool=(window.TOOLVANTA_TOOLS||[]).find(function(t){return t.id===id;}); if(!tool) return; try{ var recent=JSON.parse(localStorage.getItem('toolvanta_recent')||'[]').filter(function(x){return x!==id;}); recent.unshift(id); localStorage.setItem('toolvanta_recent',JSON.stringify(recent.slice(0,12))); }catch(e){} if(root.querySelector('.tool-form') && root.textContent.indexOf('Tool not found')===-1) return; if(tool.category==='text') return renderText(root,tool); if(tool.category==='seo') return renderSeo(root,tool); if(tool.category==='developer') return renderDev(root,tool); if(tool.category==='calculator'||tool.category==='marketing') return tool.type==='template'?renderTemplate(root,tool):renderCalc(root,tool); if(tool.category==='social-media'||tool.category==='ai') return renderTemplate(root,tool); if(tool.category==='image') return renderImage(root,tool); if(tool.category==='productivity') return renderProductivity(root,tool); renderTemplate(root,tool); });
+  ready(function(){
+    var root=document.getElementById('tool-root');
+    var runtime=window.ToolVantaToolRuntime;
+    if(!root){
+      if(window.console && console.error) console.error('ToolVanta tool render error: #tool-root container was not found.');
+      return;
+    }
+    if(root.dataset.toolRenderFailed === 'true') return;
+    var id=(root.getAttribute('data-tool-id') || '').trim(), tool=(window.TOOLVANTA_TOOLS||[]).find(function(t){return t.id===id;});
+    if(!id){ if(runtime && runtime.fail) runtime.fail(root,'Missing data-tool-id on #tool-root.'); return; }
+    if(!tool){ if(runtime && runtime.fail) runtime.fail(root,'No tool metadata found for "'+id+'".'); return; }
+    try{ var recent=JSON.parse(localStorage.getItem('toolvanta_recent')||'[]').filter(function(x){return x!==id;}); recent.unshift(id); localStorage.setItem('toolvanta_recent',JSON.stringify(recent.slice(0,12))); }catch(e){}
+    if(root.querySelector('.tool-form')) return;
+    try{
+      if(tool.category==='text') return renderText(root,tool);
+      if(tool.category==='seo') return renderSeo(root,tool);
+      if(tool.category==='developer') return renderDev(root,tool);
+      if(tool.category==='calculator'||tool.category==='marketing') return tool.type==='template'?renderTemplate(root,tool):renderCalc(root,tool);
+      if(tool.category==='social-media'||tool.category==='ai') return renderTemplate(root,tool);
+      if(tool.category==='image') return renderImage(root,tool);
+      if(tool.category==='productivity') return renderProductivity(root,tool);
+      renderTemplate(root,tool);
+    }catch(error){
+      if(runtime && runtime.fail) runtime.fail(root,{ id:id, error:error });
+      else throw error;
+    }
+  });
 })();
